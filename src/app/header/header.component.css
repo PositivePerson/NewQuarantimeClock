@@ -1,0 +1,211 @@
+
+
+
+
+/* =========================== U N I V E R S A L ======================= */
+
+
+.fixedLogo a{
+  font-size: 0.8em;
+  /* font-weight: normal; */
+}
+
+/* .nav-link {
+  font-weight: normal;
+} */
+
+.nav-link i {
+  font-size: 1.2em;
+}
+
+.fixedLogo .rightText {
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+}
+
+.rightText.scrolledHidenText {
+  opacity: 1 !important;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+}
+
+.fixedLogo{
+  left: 0;
+  top: 0;
+  height: 0em;
+  color: rgba(224, 224, 224, 0.876);
+  position: fixed;
+  width: 100%;
+  text-align: left;
+  z-index:1000;
+  transition: height 0.3s, background 0.5s;
+  font-size: 1.1em;
+  font-family: 'Khand', sans-serif;
+}
+
+.fixedLogo.scrolled {
+  background: #222;
+  height: 3.3em;
+
+  transition: height .3s, background .2s;
+}
+
+/* .fixedLogo span #firstfixedLogo{
+  padding-left: 0.11em;
+  font-size: 1.4em;
+} */
+
+.fixedLogo span {
+  /* padding-left: 1em; */
+  left: 5%;
+  top: auto;
+  font-size: 1.6em;
+  color: rgba(224, 224, 224, 0.787);
+}
+
+.fixedLogo li {
+  position: relative;
+  padding-left: 1em;
+
+  left: 5%;
+  top: auto;
+  font-size: 1.4em;
+  color: rgba(224, 224, 224, 0.787);
+
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+}
+
+.fixedLogo li.scrolledHidenText {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+}
+
+.fixedLogo #upperLogo{
+  font-size: 2em;
+  opacity: 1;
+}
+
+.navbar {
+  padding-bottom: 0.3rem;
+}
+/*
+#firstfixedLogo {
+  z-index: 1001;
+}
+
+#firstfixedLogo .hideStaticNav{
+  z-index: 999;
+} */
+
+#staticNav {
+  line-height: 1.9;
+  padding-left: 2.5em;
+  padding-top:0.5em;
+
+
+  transition: opacity .2s easy-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+}
+
+/* div #staticNav .hideStaticNav {
+  opacity: 0 !important;
+  transition: opacity .2s easy-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+
+  z-index: 999;
+} */
+
+#navLogo {
+  /* display: none; */
+  overflow: hidden;
+}
+
+.navbar.fixedLogo .onElement #navLogo {
+  display: flex;
+}
+
+#WHO {
+  color: rgba(224, 224, 224, 0.787);
+  width: 5em;
+  height: auto;
+}
+
+#shield {
+  color: rgba(224, 224, 224, 0.787);
+  width: 1.55em;
+  height: auto;
+}
+
+#unicefBox {
+  /* width: 4em; */
+}
+
+#unicefLogoWriting{
+  width: 0px;
+  height: 0.75em;
+  margin-right: -0.15em;
+  overflow: hidden;
+  transition: width .35s;
+}
+
+#unicefBox:hover > #unicefLogoWriting{
+  color: rgba(224, 224, 224, 0.787);
+  width: 93.27px;
+  /* height: 0.75em; */
+  transition: width .35s;
+}
+
+#unicefLogoWriting a{
+  width: 100%;
+  /* height: 0.75em; */
+  height: 29px;
+}
+
+#unicefLogoWriting{
+  width: 100%;
+  height: 29px;
+}
+
+#unicefLogo {
+  color: rgba(224, 224, 224, 0.787);
+  width: 3em;
+  height: auto;
+}
+
+
+
+
+/* ===========================E X T R A    S M A L L============================ */
+
+
+@media (max-width: 575.98px) {
+
+  #staticNav {
+    margin-left: 1em;
+    padding-left: 0;
+  }
+
+}
+
+
+
+/* ===================================E X T R A    L A R G E ============================ */
+
+
+@media (min-width: 1200px) {
+
+  #staticNav {
+    padding-left:4em;
+  }
+
+  .toLeft a {
+    margin-left: 1em;
+  }
+
+}

@@ -1,0 +1,84 @@
+/* ===========================E X T R A    S M A L L============================ */
+
+
+@media (max-width: 575.98px) {
+
+    #copyright {
+      /* color: rgba(251, 208, 208, 0.753); */
+      /* color: rgba(204, 204, 204, 0.753); */
+      color: #666;
+      background: #171717;
+      padding-right: 0%;
+      letter-spacing: 0.07em;
+    }
+
+}
+
+
+/* ===================================S M A L L============================ */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #copyright {
+      /* color: rgba(251, 208, 208, 0.753); */
+      /* color: rgba(204, 204, 204, 0.753); */
+      color: #666;
+      background: #171717;
+      padding-right: 0%;
+      letter-spacing: 0.07em;
+  }
+
+}
+
+
+/* ===================================M E D I U M============================ */
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #copyright {
+      /* color: rgba(251, 208, 208, 0.753); */
+      /* color: rgba(204, 204, 204, 0.753); */
+      color: #666;
+      background: #171717;
+      padding-right: 5%;
+      letter-spacing: 0.07em;
+  }
+
+}
+
+
+
+/* ====================================L A R G E============================================ */
+
+
+@media (min-width: 992px) and (max-width: 1249.98px) {
+
+    #copyright {
+      /* color: rgba(251, 208, 208, 0.753); */
+      /* color: rgba(204, 204, 204, 0.753); */
+      color: #666;
+      background: #171717;
+      padding-right: 10%;
+      letter-spacing: 0.07em;
+    }
+
+}
+
+
+/* ===================================E X T R A    L A R G E ============================ */
+
+
+@media (min-width: 1250px) {
+
+    #copyright {
+      /* color: rgba(251, 208, 208, 0.753); */
+      /* color: rgba(204, 204, 204, 0.753); */
+      color: #666;
+      background: #171717;
+      padding-right: 25%;
+      letter-spacing: 0.07em;
+  }
+
+}

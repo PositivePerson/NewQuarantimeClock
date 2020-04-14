@@ -1,0 +1,11 @@
+
+#footerText {
+  text-align: justify;
+  text-indent: 10%;
+  font-size: 1.3em;
+  line-height: 1.7em;
+  font-weight: 300;
+  letter-spacing: 0.045em;
+  /* font-style: italic; */
+  font-family: 'Merriweather', serif;
+}

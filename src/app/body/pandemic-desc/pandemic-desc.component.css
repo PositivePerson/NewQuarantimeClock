@@ -1,0 +1,83 @@
+
+/* ===========================E X T R A    S M A L L============================ */
+
+
+@media (max-width: 575.98px) {
+
+}
+
+
+/* ===================================S M A L L============================ */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+/* ===================================M E D I U M============================ */
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+
+/* ====================================L A R G E============================================ */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+/* ===================================E X T R A    L A R G E ============================ */
+
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+/* =========================== U N I V E R S A L ======================= */
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 600;
+  margin-bottom: 1em;
+  font-size: 2.5em;
+}
+
+mat-card-content {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.0em;
+  font-weight: 600;
+  letter-spacing: 0.085em;
+  text-align: justify;
+  line-height: 1.8em;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+#siteDesc{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.0em;
+  font-weight: 600;
+  letter-spacing: 0.085em;
+}
+
+#history-card{
+  background: rgb(41, 41, 41);
+
+  font-size: 1.4em;
+  border-radius: 5%;
+  padding: 1em;
+}
+
+#paperBack p{
+  text-indent: 10%;
+}

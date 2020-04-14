@@ -1,0 +1,136 @@
+
+
+/* ===========================E X T R A    S M A L L============================ */
+
+
+@media (max-width: 575.98px) {
+
+  .wrapper {
+    /* width: 1400px; */
+    margin-top: 2.9em;
+  }
+
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
+  }
+
+  .footer {
+    width: 60%;
+  }
+
+}
+
+/* ===================================S M A L L============================ */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .wrapper {
+    /* width: 1400px; */
+    margin-top: 2.9em;
+  }
+
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
+  }
+
+  .footer {
+    width: 90%;
+  }
+
+}
+
+/* ===================================M E D I U M============================ */
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .wrapper {
+    /* width: 1400px; */
+    margin-top: 2.9em;
+  }
+
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
+    bottom: 0;
+  }
+
+  .footer {
+    width: 90%;
+  }
+
+}
+
+/* ====================================L A R G E============================================ */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+  .wrapper {
+    /* width: 1400px; */
+    margin-top: 2.5em;
+  }
+
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
+  }
+
+  .footer {
+    width: 80%;
+  }
+
+}
+
+/* ===================================E X T R A    L A R G E ============================ */
+
+
+@media (min-width: 1200px){
+
+  .wrapper {
+    /* width: 1400px; */
+    margin-top: 2.5em;
+    width: 70em;
+  }
+
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
+  }
+
+  .footer {
+    width: 50%;
+  }
+
+}
+
+/* =====================U N I V E R S A L=================== */
+
+#mainContainer {
+  min-height: 62vh;
+
+  padding-top: 1em;
+}

@@ -1,0 +1,71 @@
+
+    <progress value="1122" id="reading-position-indicator" class="indeter  position-top" max="2518.25">
+      <div class="progress-container">
+          <span class="progress-bar">
+          </span>
+      </div>
+    </progress>
+
+    <nav class="fixedLogo" id="firstfixedLogo">
+      <div class="leftNav h-100">
+          <div class="staticNav" id="staticNav">
+              <span class="toLeft">
+                  <a mat-button routerLink="/">Timers</a>
+              </span>
+              <span class="toLeft">
+                  <a mat-button href="#">About Virus</a>
+              </span>
+              <span class="toLeft">
+                  <a mat-button routerLink="/epidemic">Pandemic</a>
+              </span>
+          </div>
+
+      </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand fixedLogo"  id="navLogo">
+      <div class="leftNav collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav justify-content-around mr-md-auto">
+          <li class="d-none d-sm-block">
+            <a mat-button class="nav-link" href="#"><i class="fas fa-hourglass-half pr-2"></i> Timers</a>
+          </li>
+          <li class="">
+            <a mat-button class="nav-link" href="#">About Virus</a>
+          </li>
+          <li class="nav-item">
+            <a mat-button class="nav-link" routerLink="/epidemic">Pandemic</a>
+          </li>
+        </ul>
+
+        <!-- <span class="rightText mr-lg-4" id="">
+          <div class="searchPlace">
+              <input type="text" name="search" [(ngModel)]="searchForCountry" class="search-txt" placeholder="Type country"/>
+              <a class="search-btn">
+              <i class="fas fa-search"></i>
+              </a>
+          </div>
+        </span> -->
+
+        <div class="rightText pl-0 mx-4 mx-xl-5 d-none d-md-block" id="unicefBox">
+          <span class="p-0" id="unicefLogoWriting">
+              <a class="px-0" href="https://www.unicef.org/coronavirus/covid-19"><img src="../../assets/svg/UnicefLogWriting.svg" alt=""></a>
+          </span>
+          <span class="p-0" id="unicefLogo">
+              <a href="https://www.unicef.org/coronavirus/covid-19"><img src="../../assets/svg/UnicefLogoSolo.svg" alt=""></a>
+          </span>
+      </div>
+
+        <span class="rightText pl-0 mr-4 mr-xl-5 d-none d-md-block" id="shield">
+          <img src="../../assets/svg/shield-virus-solid.svg" alt="">
+          <!-- <svg-icon src="../../assets/svg/shield-virus-solid.svg" [svgStyle]="{ 'width.px':90 }"></svg-icon> -->
+        </span>
+
+        <span class="rightText pl-0 mr-4 mr-xl-5 d-none d-md-block" id="WHO">
+          <a href="https://who.sprinklr.com/"><img src="../../assets/svg/World_Health_Organization_LogoV1.svg" alt=""></a>
+        </span>
+        <!-- <span class="rightText pl-0 mr-5 d-none d-md-block">
+          Let's Stay Home
+        </span> -->
+      </div>
+    </nav>

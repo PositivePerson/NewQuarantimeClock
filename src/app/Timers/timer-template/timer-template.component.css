@@ -1,0 +1,1011 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* ===========================E X T R A    S M A L L============================ */
+
+
+@media (max-width: 575.98px) {
+
+  h1 {
+      font-family: 'Playfair Display SC', serif;
+      font-weight: 600;
+      margin-bottom: 1em;
+      font-size: 2.5em;
+  }
+
+
+
+  hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  a {
+      outline: none;
+      text-decoration: none;
+      padding: 2px 1px 0;
+  }
+
+  a:link {
+      /* color: #707070; */
+      /* color: rgba(204, 204, 204, 0.753); */
+      color: rgb(230, 230, 230);
+  }
+
+  a:visited {
+      color: rgb(230, 230, 230);
+  }
+
+  a:focus {
+
+  }
+
+  a:hover {
+      text-shadow: 1px 1px 2px rgba(204, 204, 204, 0.089);
+  }
+
+  a:active {
+      color: rgb(230, 230, 230);
+  }
+/*
+  .wrapper {
+      margin-top: 2.9em;
+  } */
+
+  /* .fixedButton {
+      position: fixed;
+      left: 2em;
+      top: 0.5em;
+      font-size: 3em;
+      padding: 0 0.5em;
+      background: #ababab94;
+      border-radius: 0.05em;
+  } */
+
+
+  .firstOccur, .endOfBreak {
+      font-family: 'Khand', sans-serif;
+      font-size: 1.8em;
+      font-weight: 600;
+      letter-spacing: 0.045em;
+  }
+
+  /* h1{
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  } */
+
+  .clockdiv{
+      font-family: 'Khand', sans-serif;
+      /* color: #fff; */
+      font-weight: 100;
+      text-align: center;
+      font-size: 2em;
+  }
+
+  /* .clockdiv > div{
+      padding: 1px;
+      border-radius: 1px;
+      background: #00BF96;
+  } */
+
+  .clockdiv div > span{
+      /* font-family: 'Quantico', sans-serif; */
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 500;
+      width: 10em;
+      font-size: 0.9em;
+      color: rgb(230, 230, 230);
+
+      /* text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 6px 5px rgba(0,0,0,0.1),
+                  0px 13px 5px rgba(0,0,0,0.1); */
+
+      border-radius: 2%;
+      /* background: #0f1113; */
+  }
+
+  .countingRow {
+      margin-bottom: 7em;
+  }
+
+  .card {
+      padding: 0;
+      /* background: #383e3e8f; */
+      /* background: #383e3e66; */
+      /* background: #a2a6a680; */
+      background: #ababab78;
+      border-radius: 2%;
+  }
+
+  .card-body {
+      padding: 0.45em 0 0.3em 0;
+  }
+
+  .box {
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      /* 0 0 0.1em rgba(0,0,0,0.4); */
+      box-shadow: 0px 3px 2px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 12px 17px rgba(0,0,0,0.1);
+
+                  /* 0px 3px 2px rgba(0, 0, 0, 0), 0px 15px 15px rgba(0, 0, 0, 0.62), 0px 12px 17px rgba(0, 0, 0, 0.33) */
+  }
+
+  .smalltext{
+      padding-top: 0.5em;
+      /* color: rgba(224, 224, 224, 0.876); */
+      color: rgb(230, 230, 230);
+      font-size: 0.6em;
+      text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 3px 5px rgba(0,0,0,0.1),
+                  0px 4px 7px rgba(0,0,0,0.1);
+  }
+
+  #siteDesc{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.0em;
+    font-weight: 600;
+    letter-spacing: 0.085em;
+  }
+
+  #Poland, #France, #Italy, #Spain, #China {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 3.2em;
+      margin-top: 1.4em;
+      text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 15px 22px rgba(0,0,0,0.1);
+  }
+
+  @media (min-width: 992px) {
+      .footer {
+          width: 55%;
+      }
+  }
+}
+
+
+/* ===================================S M A L L============================ */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  h1 {
+      font-family: 'Playfair Display SC', serif;
+      font-weight: 600;
+      margin-bottom: 1em;
+      font-size: 2.5em;
+  }
+
+
+
+  hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  a {
+      outline: none;
+      text-decoration: none;
+      padding: 2px 1px 0;
+  }
+
+  a:link {
+      /* color: #707070; */
+      color: rgb(230, 230, 230);
+  }
+
+  a:visited {
+      color: rgb(230, 230, 230);
+  }
+
+  a:focus {
+
+  }
+
+  a:hover {
+      text-shadow: 1px 1px 2px rgba(204, 204, 204, 0.089);
+  }
+
+  a:active {
+      color: rgb(230, 230, 230);
+  }
+
+  /* .wrapper {
+
+      margin-top: 2.9em;
+
+  } */
+
+  /* .fixedButton {
+      position: fixed;
+      left: 2em;
+      top: 0.5em;
+      font-size: 3em;
+      padding: 0 0.5em;
+      background: #ababab94;
+      border-radius: 0.05em;
+  } */
+
+
+  .firstOccur, .endOfBreak {
+      font-family: 'Khand', sans-serif;
+      font-size: 1.85em;
+      font-weight: 600;
+      letter-spacing: 0.045em;
+  }
+
+  /* h1{
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  } */
+
+  .clockdiv{
+      font-family: 'Khand', sans-serif;
+      /* color: #fff; */
+      font-weight: 100;
+      text-align: center;
+      font-size: 2em;
+  }
+
+  /* .clockdiv > div{
+      padding: 1px;
+      border-radius: 1px;
+      background: #00BF96;
+  } */
+
+  .clockdiv div > span{
+      /* font-family: 'Quantico', sans-serif; */
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 500;
+      width: 10em;
+      font-size: 0.9em;
+      color: rgb(230, 230, 230);
+
+      /* text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 6px 5px rgba(0,0,0,0.1),
+                  0px 13px 5px rgba(0,0,0,0.1); */
+
+      border-radius: 2%;
+      /* background: #0f1113; */
+  }
+
+  .countingRow {
+      margin-bottom: 7em;
+  }
+
+  .card {
+      padding: 0;
+      /* background: #383e3e8f; */
+      /* background: #383e3e66; */
+      /* background: #a2a6a680; */
+      background: #ababab78;
+      border-radius: 2%;
+  }
+
+  .card-body {
+      padding: 0.45em 0 0.3em 0;
+  }
+
+  .box {
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      /* 0 0 0.1em rgba(0,0,0,0.4); */
+      box-shadow: 0px 3px 2px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 12px 17px rgba(0,0,0,0.1);
+
+                  /* 0px 3px 2px rgba(0, 0, 0, 0), 0px 15px 15px rgba(0, 0, 0, 0.62), 0px 12px 17px rgba(0, 0, 0, 0.33) */
+  }
+
+  .smalltext{
+      padding-top: 0.5em;
+      color: rgb(230, 230, 230);
+      font-size: 0.6em;
+      text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 3px 5px rgba(0,0,0,0.1),
+                  0px 4px 7px rgba(0,0,0,0.1);
+  }
+
+  #siteDesc{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.0em;
+    font-weight: 600;
+    letter-spacing: 0.085em;
+  }
+
+  #Poland, #France, #Italy, #Spain, #China {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 3.2em;
+      margin-top: 1.4em;
+      text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 15px 22px rgba(0,0,0,0.1);
+  }
+
+  @media (min-width: 992px) {
+      .footer {
+          width: 55%;
+      }
+  }
+
+}
+
+
+/* ===================================M E D I U M============================ */
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  h1 {
+      font-family: 'Playfair Display SC', serif;
+      font-weight: 600;
+      margin-bottom: 1em;
+      font-size: 2.5em;
+  }
+
+
+
+  hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  a {
+      outline: none;
+      text-decoration: none;
+      padding: 2px 1px 0;
+  }
+
+  a:link {
+      /* color: #707070; */
+      color: rgb(230, 230, 230);
+  }
+
+  a:visited {
+      color: rgb(230, 230, 230);
+  }
+
+  a:focus {
+
+  }
+
+  a:hover {
+      text-shadow: 1px 1px 2px rgba(204, 204, 204, 0.089);
+  }
+
+  a:active {
+      color: rgb(230, 230, 230);
+  }
+
+  /* .wrapper {
+
+      margin-top: 2.9em;
+
+  } */
+
+  /* .fixedButton {
+      position: fixed;
+      left: 2em;
+      top: 0.5em;
+      font-size: 3em;
+      padding: 0 0.5em;
+      background: #ababab94;
+      border-radius: 0.05em;
+  } */
+
+
+  .firstOccur, .endOfBreak {
+      font-family: 'Khand', sans-serif;
+      font-size: 1.6em;
+      font-weight: 600;
+      letter-spacing: 0.045em;
+  }
+
+  /* h1{
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  } */
+
+  .clockdiv{
+      font-family: 'Khand', sans-serif;
+      /* color: #fff; */
+      font-weight: 100;
+      text-align: center;
+      font-size: 2em;
+  }
+
+  /* .clockdiv > div{
+      padding: 1px;
+      border-radius: 1px;
+      background: #00BF96;
+  } */
+
+  .clockdiv div > span{
+      /* font-family: 'Quantico', sans-serif; */
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 500;
+      width: 10em;
+      font-size: 0.9em;
+      color: rgb(230, 230, 230);
+
+      /* text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 6px 5px rgba(0,0,0,0.1),
+                  0px 13px 5px rgba(0,0,0,0.1); */
+
+      border-radius: 2%;
+      /* background: #0f1113; */
+  }
+
+  .countingRow {
+      margin-bottom: 7em;
+  }
+
+  .card {
+      padding: 0;
+      /* background: #383e3e8f; */
+      /* background: #383e3e66; */
+      /* background: #a2a6a680; */
+      background: #ababab78;
+      border-radius: 2%;
+  }
+
+  .card-body {
+      padding: 0.45em 0 0.3em 0;
+  }
+
+  .box {
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      /* 0 0 0.1em rgba(0,0,0,0.4); */
+      box-shadow: 0px 3px 2px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 12px 17px rgba(0,0,0,0.1);
+
+                  /* 0px 3px 2px rgba(0, 0, 0, 0), 0px 15px 15px rgba(0, 0, 0, 0.62), 0px 12px 17px rgba(0, 0, 0, 0.33) */
+  }
+
+  .smalltext{
+      padding-top: 0.5em;
+      color: rgb(230, 230, 230);
+      font-size: 0.6em;
+      text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 3px 5px rgba(0,0,0,0.1),
+                  0px 4px 7px rgba(0,0,0,0.1);
+  }
+
+  #siteDesc{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.0em;
+    font-weight: 600;
+    letter-spacing: 0.085em;
+  }
+
+  #Poland, #France, #Italy, #Spain, #China {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 3.2em;
+      margin-top: 1.4em;
+      text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 15px 22px rgba(0,0,0,0.1);
+  }
+
+  @media (min-width: 992px) {
+      .footer {
+          width: 55%;
+      }
+  }
+
+}
+
+
+/* ====================================L A R G E============================================ */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  h1 {
+      font-family: 'Playfair Display SC', serif;
+      font-weight: 600;
+      margin-bottom: 1em;
+      font-size: 2.5em;
+  }
+
+
+  hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  a {
+      outline: none;
+      text-decoration: none;
+      padding: 2px 1px 0;
+  }
+
+  a:link {
+      /* color: #707070; */
+      color: rgb(230, 230, 230);
+  }
+
+  a:visited {
+      color: rgb(230, 230, 230);
+  }
+
+  a:focus {
+
+  }
+
+  a:hover {
+      text-shadow: 1px 1px 2px rgba(204, 204, 204, 0.089);
+  }
+
+  a:active {
+      color: rgb(230, 230, 230);
+  }
+/*
+  .wrapper {
+      margin-top: 2.5em;
+
+  } */
+
+  /* .fixedButton {
+      position: fixed;
+      left: 2em;
+      top: 0.5em;
+      font-size: 3em;
+      padding: 0 0.5em;
+      background: #ababab94;
+      border-radius: 0.05em;
+  } */
+
+
+  .firstOccur, .endOfBreak {
+      font-family: 'Khand', sans-serif;
+      font-size: 1.6em;
+      font-weight: 600;
+      letter-spacing: 0.045em;
+  }
+
+  /* h1{
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  } */
+
+  .clockdiv{
+      font-family: 'Khand', sans-serif;
+      /* color: #fff; */
+      font-weight: 100;
+      text-align: center;
+      font-size: 2em;
+  }
+
+  /* .clockdiv > div{
+      padding: 1px;
+      border-radius: 1px;
+      background: #00BF96;
+  } */
+
+  .clockdiv div > span{
+      /* font-family: 'Quantico', sans-serif; */
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 500;
+      width: 10em;
+      font-size: 0.9em;
+      color: rgb(230, 230, 230);
+
+      /* text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 6px 5px rgba(0,0,0,0.1),
+                  0px 13px 5px rgba(0,0,0,0.1); */
+
+      border-radius: 2%;
+      /* background: #0f1113; */
+  }
+
+  .countingRow {
+      margin-bottom: 7em;
+  }
+
+  .card {
+      padding: 0;
+      /* background: #383e3e8f; */
+      /* background: #383e3e66; */
+      /* background: #a2a6a680; */
+      background: #ababab78;
+      border-radius: 2%;
+  }
+
+  .card-body {
+      padding: 0.45em 0 0.3em 0;
+  }
+
+  .box {
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      /* 0 0 0.1em rgba(0,0,0,0.4); */
+      box-shadow: 0px 3px 2px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 12px 17px rgba(0,0,0,0.1);
+
+                  /* 0px 3px 2px rgba(0, 0, 0, 0), 0px 15px 15px rgba(0, 0, 0, 0.62), 0px 12px 17px rgba(0, 0, 0, 0.33) */
+  }
+
+  .smalltext{
+      padding-top: 0.5em;
+      color: rgb(230, 230, 230);
+      font-size: 0.6em;
+      text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 3px 5px rgba(0,0,0,0.1),
+                  0px 4px 7px rgba(0,0,0,0.1);
+  }
+
+  #siteDesc{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.0em;
+    font-weight: 600;
+    letter-spacing: 0.085em;
+  }
+
+  #Poland, #France, #Italy, #Spain, #China {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 3.2em;
+      margin-top: 1.4em;
+      text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 15px 22px rgba(0,0,0,0.1);
+  }
+
+  @media (min-width: 992px) {
+      .footer {
+          width: 55%;
+      }
+  }
+}
+
+
+/* ===================================E X T R A    L A R G E ============================ */
+
+
+@media (min-width: 1200px) {
+
+  h1 {
+      font-family: 'Playfair Display SC', serif;
+      font-weight: 600;
+      margin-bottom: 1em;
+      font-size: 2.5em;
+  }
+
+
+  hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  a {
+      outline: none;
+      text-decoration: none;
+      padding: 2px 1px 0;
+  }
+
+  a:link {
+      /* color: #707070; */
+      color: rgb(230, 230, 230);
+  }
+
+  a:visited {
+      color: rgb(230, 230, 230);
+  }
+
+  a:focus {
+
+  }
+
+  a:hover {
+      text-shadow: 1px 1px 2px rgba(207, 207, 207, 0.692);
+      outline: none;
+      text-decoration: none;
+  }
+
+  a:active {
+      color: rgb(230, 230, 230);
+  }
+
+  /* .wrapper {
+      margin-top: 2.5em;
+      width: 70em;
+  } */
+
+  /* .fixedButton {
+      position: fixed;
+      left: 2em;
+      top: 0.5em;
+      font-size: 3em;
+      padding: 0 0.5em;
+      background: #ababab94;
+      border-radius: 0.05em;
+  } */
+
+
+  .firstOccur, .endOfBreak {
+      font-family: 'Khand', sans-serif;
+      font-size: 1.6em;
+      font-weight: 600;
+      letter-spacing: 0.045em;
+  }
+
+  /* h1{
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  } */
+
+  .clockdiv{
+      font-family: 'Khand', sans-serif;
+      /* color: #fff; */
+      font-weight: 100;
+      text-align: center;
+      font-size: 2em;
+  }
+
+  /* .clockdiv > div{
+      padding: 1px;
+      border-radius: 1px;
+      background: #00BF96;
+  } */
+
+  .clockdiv div > span{
+      /* font-family: 'Quantico', sans-serif; */
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 500;
+      width: 10em;
+      font-size: 0.9em;
+      color: rgb(230, 230, 230);
+
+      /* text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 6px 5px rgba(0,0,0,0.1),
+                  0px 13px 5px rgba(0,0,0,0.1); */
+
+      border-radius: 2%;
+      /* background: #0f1113; */
+  }
+
+  .countingRow {
+      margin-bottom: 7em;
+  }
+
+  .card {
+      padding: 0;
+      /* background: #383e3e8f; */
+      /* background: #383e3e66; */
+      /* background: #a2a6a680; */
+      background: #ababab78;
+      border-radius: 2%;
+  }
+
+  .card-body {
+      padding: 0.45em 0 0.3em 0;
+  }
+
+  .box {
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      /* 0 0 0.1em rgba(0,0,0,0.4); */
+      box-shadow: 0px 3px 2px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 12px 17px rgba(0,0,0,0.1);
+
+                  /* 0px 3px 2px rgba(0, 0, 0, 0), 0px 15px 15px rgba(0, 0, 0, 0.62), 0px 12px 17px rgba(0, 0, 0, 0.33) */
+  }
+
+  .smalltext{
+      padding-top: 0.5em;
+      color: rgb(230, 230, 230);
+      font-size: 0.6em;
+      text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                  0px 3px 5px rgba(0,0,0,0.1),
+                  0px 4px 7px rgba(0,0,0,0.1);
+  }
+
+  #siteDesc{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.0em;
+    font-weight: 600;
+    letter-spacing: 0.085em;
+  }
+
+  #Poland, #France, #Italy, #Spain, #China {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 3.2em;
+      margin-top: 1.4em;
+      text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+                  0px 7px 12px rgba(0,0,0,0.1),
+                  0px 15px 22px rgba(0,0,0,0.1);
+  }
+
+  @media (min-width: 992px) {
+      .footer {
+          width: 55%;
+      }
+  }
+}
+
+
+
+html,body{
+height: 100%
+}
+
+
+html {
+/* font-size: 80%; */
+/* -webkit-transform: scale(0.80);
+     -moz-transform: scale(0.80);
+          transform: scale(0.80); */
+}
+
+
+/* ----------------------------half column----------------------------------- */
+
+.col-sm-3quart, .col-sm-8quart {
+position: relative;
+min-height: 1px;
+/* padding-right: 15px;
+padding-left: 15px; */
+}
+
+@media (max-width: 489.98px) {
+.col-sm-3quart, .col-sm-8quart {
+  float: left;
+}
+.col-sm-3quart {
+  width: 20.16666667%;
+}
+.col-sm-8quart {
+  width: 63.83333333%;
+}
+}
+
+@media (min-width: 490px) and (max-width: 575.98px) {
+.col-sm-3quart, .col-sm-8quart {
+  float: left;
+}
+.col-sm-3quart {
+  width: 18.16666667%;
+}
+.col-sm-8quart {
+  width: 63.83333333%;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.col-sm-3quart, .col-sm-8quart {
+  float: left;
+}
+.col-sm-3quart {
+  width: 19.16666667%;
+}
+.col-sm-8quart {
+  width: 63.83333333%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.col-sm-3quart, .col-sm-8quart {
+  float: left;
+}
+.col-sm-3quart {
+  width: 18.16666667%;
+}
+.col-sm-8quart {
+  width: 63.83333333%;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.col-sm-3quart, .col-sm-8quart {
+  float: left;
+}
+.col-sm-3quart {
+  width: 19.16666667%;
+}
+.col-sm-8quart {
+  width: 63.83333333%;
+}
+}
+
+
+/*===============S E A R C H   B O X================*/
+
+.searchPlace {
+ position: fixed;
+ top: 1%;
+ left: 88%;
+ transform: translate(-95%, 5%);
+ background: transparent;
+ height: 40px;
+ border-radius: 40px;
+ padding: 10px;
+ z-index: 1001;
+
+  opacity: 1;
+  transition: background, 0.5s ease-in-out, opacity .2s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
+}
+
+.searchPlace.scrolledSearchPlace {
+  opacity: 0 !important;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+}
+
+ .searchPlace:hover > .search-txt {
+  width: 8.5em;
+  padding: 0 1em;
+ }
+
+ .searchPlace:hover {
+  background: #2f3640;
+  transition: background .0s ease-in-out;
+  -moz-transition: background .0s ease-in-out;
+ }
+
+ .searchPlace:hover > .search-btn {
+  opacity: 0 !important;
+  transition: opacity .05s ease-in-out;
+  -moz-transition: opacity .05s ease-in-out;
+ }
+
+ .searchPlace:hover > .search-btn {
+  background: white;
+  color: black;
+ }
+
+ .search-btn {
+  /* color: #e84118; */
+  float: right;
+  width: 1.35em;
+  height: 1.35em;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.35s;
+  color: white;
+  cursor: pointer;
+
+  opacity: 1 !important;
+  transition: opacity .9s ease-in-out;
+  -moz-transition: opacity .9s ease-in-out;
+ }
+
+ .search-btn > i {
+  font-size: 30px;
+ }
+
+ .search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  /* font-size: 0.65em; */
+  font-size: 0.85em;
+  transition: 0.4s;
+  line-height: 2em;
+  width: 0;
+  font-weight: bold;
+  letter-spacing: 0.075em;
+ }
