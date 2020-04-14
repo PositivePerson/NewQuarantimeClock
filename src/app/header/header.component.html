@@ -1,12 +1,12 @@
 
-    <progress value="1122" id="reading-position-indicator" class="indeter  position-top" max="2518.25">
+    <progress value="1122" id="reading-position-indicator" class="d-none d-md-inline-block position-top" max="2518.25">
       <div class="progress-container">
           <span class="progress-bar">
           </span>
       </div>
     </progress>
 
-    <nav class="fixedLogo" id="firstfixedLogo">
+    <nav class="fixedLogo d-none d-md-block" id="firstfixedLogo">
       <div class="leftNav h-100">
           <div class="staticNav" id="staticNav">
               <span class="toLeft">
@@ -24,11 +24,11 @@
     </nav>
 
 
-    <nav class="navbar navbar-expand fixedLogo"  id="navLogo">
+    <nav class="navbar navbar-expand fixedLogo mobileNav"  id="navLogo">
       <div class="leftNav collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav justify-content-around mr-md-auto">
-          <li class="d-none d-sm-block">
-            <a mat-button class="nav-link" href="#"><i class="fas fa-hourglass-half pr-2"></i> Timers</a>
+          <li class="">
+            <a mat-button class="nav-link" href="#"><i class="fas fa-hourglass-half d-none d-sm-inline pr-2"></i> Timers</a>
           </li>
           <li class="">
             <a mat-button class="nav-link" href="#">About Virus</a>
@@ -56,10 +56,9 @@
           </span>
       </div>
 
-        <span class="rightText pl-0 mr-4 mr-xl-5 d-none d-md-block" id="shield">
+        <!-- <span class="rightText pl-0 mr-4 mr-xl-5 d-none d-md-block" id="shield">
           <img src="../../assets/svg/shield-virus-solid.svg" alt="">
-          <!-- <svg-icon src="../../assets/svg/shield-virus-solid.svg" [svgStyle]="{ 'width.px':90 }"></svg-icon> -->
-        </span>
+        </span> -->
 
         <span class="rightText pl-0 mr-4 mr-xl-5 d-none d-md-block" id="WHO">
           <a href="https://who.sprinklr.com/"><img src="../../assets/svg/World_Health_Organization_LogoV1.svg" alt=""></a>

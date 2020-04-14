@@ -1,6 +1,209 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+
+
+
+/* ===================================E X T R A    L A R G E ============================ */
+
+
+html,body{
+  height: 100%
+  }
+
+
+  html {
+  /* font-size: 80%; */
+  /* -webkit-transform: scale(0.80);
+       -moz-transform: scale(0.80);
+            transform: scale(0.80); */
+  }
+
+
+  /* ----------------------------half column----------------------------------- */
+
+  .col-sm-3quart, .col-sm-8quart {
+  position: relative;
+  min-height: 1px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  }
+
+  @media (max-width: 489.98px) {
+  .col-sm-3quart, .col-sm-8quart {
+    float: left;
+  }
+  .col-sm-3quart {
+    width: 20.16666667%;
+  }
+  .col-sm-8quart {
+    width: 63.83333333%;
+  }
+  }
+
+  @media (min-width: 490px) and (max-width: 575.98px) {
+  .col-sm-3quart, .col-sm-8quart {
+    float: left;
+  }
+  .col-sm-3quart {
+    width: 18.16666667%;
+  }
+  .col-sm-8quart {
+    width: 63.83333333%;
+  }
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+  .col-sm-3quart, .col-sm-8quart {
+    float: left;
+  }
+  .col-sm-3quart {
+    width: 19.16666667%;
+  }
+  .col-sm-8quart {
+    width: 63.83333333%;
+  }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  .col-sm-3quart, .col-sm-8quart {
+    float: left;
+  }
+  .col-sm-3quart {
+    width: 19.16666667%;
+  }
+  .col-sm-8quart {
+    width: 63.83333333%;
+  }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+  .col-sm-3quart, .col-sm-8quart {
+    float: left;
+  }
+  .col-sm-3quart {
+    width: 19.16666667%;
+  }
+  .col-sm-8quart {
+    width: 63.83333333%;
+  }
+  }
+
+
+  /*===============S E A R C H   B O X================*/
+
+  .searchPlace {
+   position: absolute;
+   top: 1.4%;
+   left: 88%;
+   transform: translate(-95%, 5%);
+   background: transparent;
+   height: 2.5em;
+   border-radius: 40px;
+   padding: 10px;
+   z-index: 1001;
+
+    opacity: 1;
+    transition: background, 0.5s ease-in-out, opacity .2s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
+    -ms-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
+    -o-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
+  }
+
+  .searchPlace.scrolledSearchPlace {
+    opacity: 0 !important;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    -ms-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+  }
+
+   .searchPlace:hover > .search-txt {
+    width: 8.5em;
+    padding: 0 0.6em;
+   }
+
+   .searchPlace:hover {
+    background: #2f3640;
+    transition: background .0s ease-in-out;
+    -moz-transition: background .0s ease-in-out;
+    -webkit-transition: background .0s ease-in-out;
+    -ms-transition: background .0s ease-in-out;
+    -o-transition: background .0s ease-in-out;
+   }
+
+   .searchPlace:hover > .search-btn {
+    opacity: 0 !important;
+    transition: opacity .05s ease-in-out;
+    -moz-transition: opacity .05s ease-in-out;
+    -webkit-transition: opacity .05s ease-in-out;
+    -ms-transition: opacity .05s ease-in-out;
+    -o-transition: opacity .05s ease-in-out;
+   }
+
+   .searchPlace:hover > .search-btn {
+    background: white;
+    color: black;
+   }
+
+   .search-btn {
+    /* color: #e84118; */
+    float: right;
+    width: 1.35em;
+    height: 1.35em;
+    border-radius: 50%;
+    /* background: #2f3640; */
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.35s;
+    -moz-transition: 0.35s;
+    -webkit-transition: 0.35s;
+    -ms-transition: 0.35s;
+    -o-transition: 0.35s;
+
+    color: white;
+    cursor: pointer;
+
+    opacity: 1 !important;
+    transition: opacity .9s ease-in-out;
+    -moz-transition: opacity .9s ease-in-out;
+    -webkit-transition: opacity .9s ease-in-out;
+    -ms-transition: opacity .9s ease-in-out;
+    -o-transition: opacity .9s ease-in-out;
+   }
+
+   .search-btn > i {
+    font-size: 30px;
+   }
+
+   .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    vertical-align: center;
+    /* font-size: 0.65em; */
+    font-size: 0.85em;
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+
+    /* line-height: 2em; */
+    width: 0;
+    font-weight: bold;
+    letter-spacing: 0.075em;
+   }
+
+
+
 /* ===========================E X T R A    S M A L L============================ */
 
 
@@ -226,6 +429,9 @@
       border-radius: 0.05em;
   } */
 
+  .searchPlace {
+    top: .15em;
+  }
 
   .firstOccur, .endOfBreak {
       font-family: 'Khand', sans-serif;
@@ -810,199 +1016,3 @@
   }
 }
 
-
-
-html,body{
-height: 100%
-}
-
-
-html {
-/* font-size: 80%; */
-/* -webkit-transform: scale(0.80);
-     -moz-transform: scale(0.80);
-          transform: scale(0.80); */
-}
-
-
-/* ----------------------------half column----------------------------------- */
-
-.col-sm-3quart, .col-sm-8quart {
-position: relative;
-min-height: 1px;
-/* padding-right: 15px;
-padding-left: 15px; */
-}
-
-@media (max-width: 489.98px) {
-.col-sm-3quart, .col-sm-8quart {
-  float: left;
-}
-.col-sm-3quart {
-  width: 20.16666667%;
-}
-.col-sm-8quart {
-  width: 63.83333333%;
-}
-}
-
-@media (min-width: 490px) and (max-width: 575.98px) {
-.col-sm-3quart, .col-sm-8quart {
-  float: left;
-}
-.col-sm-3quart {
-  width: 18.16666667%;
-}
-.col-sm-8quart {
-  width: 63.83333333%;
-}
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-.col-sm-3quart, .col-sm-8quart {
-  float: left;
-}
-.col-sm-3quart {
-  width: 19.16666667%;
-}
-.col-sm-8quart {
-  width: 63.83333333%;
-}
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-.col-sm-3quart, .col-sm-8quart {
-  float: left;
-}
-.col-sm-3quart {
-  width: 18.16666667%;
-}
-.col-sm-8quart {
-  width: 63.83333333%;
-}
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-.col-sm-3quart, .col-sm-8quart {
-  float: left;
-}
-.col-sm-3quart {
-  width: 19.16666667%;
-}
-.col-sm-8quart {
-  width: 63.83333333%;
-}
-}
-
-
-/*===============S E A R C H   B O X================*/
-
-.searchPlace {
- position: absolute;
- top: 1.4%;
- left: 88%;
- transform: translate(-95%, 5%);
- background: transparent;
- height: 40px;
- border-radius: 40px;
- padding: 10px;
- z-index: 1001;
-
-  opacity: 1;
-  transition: background, 0.5s ease-in-out, opacity .2s ease-in-out;
-  -moz-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
-  -webkit-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
-  -ms-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
-  -o-transition: background 0.5s ease-in-out, opacity .2s ease-in-out;
-}
-
-.searchPlace.scrolledSearchPlace {
-  opacity: 0 !important;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-  -ms-transition: opacity .25s ease-in-out;
-  -o-transition: opacity .25s ease-in-out;
-}
-
- .searchPlace:hover > .search-txt {
-  width: 8.5em;
-  padding: 0 0.6em;
- }
-
- .searchPlace:hover {
-  background: #2f3640;
-  transition: background .0s ease-in-out;
-  -moz-transition: background .0s ease-in-out;
-  -webkit-transition: background .0s ease-in-out;
-  -ms-transition: background .0s ease-in-out;
-  -o-transition: background .0s ease-in-out;
- }
-
- .searchPlace:hover > .search-btn {
-  opacity: 0 !important;
-  transition: opacity .05s ease-in-out;
-  -moz-transition: opacity .05s ease-in-out;
-  -webkit-transition: opacity .05s ease-in-out;
-  -ms-transition: opacity .05s ease-in-out;
-  -o-transition: opacity .05s ease-in-out;
- }
-
- .searchPlace:hover > .search-btn {
-  background: white;
-  color: black;
- }
-
- .search-btn {
-  /* color: #e84118; */
-  float: right;
-  width: 1.35em;
-  height: 1.35em;
-  border-radius: 50%;
-  /* background: #2f3640; */
-  background: #222;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.35s;
-  -moz-transition: 0.35s;
-  -webkit-transition: 0.35s;
-  -ms-transition: 0.35s;
-  -o-transition: 0.35s;
-
-  color: white;
-  cursor: pointer;
-
-  opacity: 1 !important;
-  transition: opacity .9s ease-in-out;
-  -moz-transition: opacity .9s ease-in-out;
-  -webkit-transition: opacity .9s ease-in-out;
-  -ms-transition: opacity .9s ease-in-out;
-  -o-transition: opacity .9s ease-in-out;
- }
-
- .search-btn > i {
-  font-size: 30px;
- }
-
- .search-txt {
-  border: none;
-  background: none;
-  outline: none;
-  float: left;
-  padding: 0;
-  color: white;
-  vertical-align: center;
-  /* font-size: 0.65em; */
-  font-size: 0.85em;
-  transition: 0.4s;
-  -moz-transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-
-  /* line-height: 2em; */
-  width: 0;
-  font-weight: bold;
-  letter-spacing: 0.075em;
- }

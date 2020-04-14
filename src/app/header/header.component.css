@@ -191,6 +191,47 @@
     padding-left: 0;
   }
 
+  .fixedLogo{
+    height: 3.3em;
+  }
+
+  .mobileNav {
+    background: #222;
+    height: 3.3em;
+  }
+
+  .fixedLogo li {
+    opacity: 1;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+}
+
+
+/* ===================================S M A L L============================ */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* .fixedLogo{
+    height: 3em;
+  } */
+
+  .mobileNav {
+    background: #222;
+    height: 2.8em;
+  }
+
+  .fixedLogo li {
+    opacity: 1;
+  }
+
+  .navbar {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
 }
 
 
