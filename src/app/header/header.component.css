@@ -48,9 +48,14 @@
 
 .fixedLogo.scrolled {
   background: #222;
-  height: 3.3em;
+  height: 3.2em;
 
   transition: height .3s, background .2s;
+
+  box-shadow:
+          0 3px 5px -1px rgba(0,0,0,.2),
+          0 6px 10px 0 rgba(0,0,0,.14),
+          0 1px 18px 0 rgba(0,0,0,.12);
 }
 
 /* .fixedLogo span #firstfixedLogo{
@@ -80,6 +85,10 @@
   -moz-transition: opacity .25s ease-in-out;
 }
 
+.fixedLogo li a {
+  text-shadow: none;
+}
+
 .fixedLogo li.scrolledHidenText {
   opacity: 1;
   transition: opacity .25s ease-in-out;
@@ -93,10 +102,6 @@
 
 .navbar {
   padding-bottom: 0.3rem;
-  box-shadow:
-          0 3px 5px -1px rgba(0,0,0,.2),
-          0 6px 10px 0 rgba(0,0,0,.14),
-          0 1px 18px 0 rgba(0,0,0,.12);
 }
 /*
 #firstfixedLogo {
@@ -136,7 +141,7 @@
 
 #WHO {
   color: rgba(224, 224, 224, 0.787);
-  width: 5em;
+  width: 4.8em;
   height: auto;
 }
 
@@ -236,6 +241,10 @@
   .navbar {
     padding: 0;
 
+    box-shadow:
+          0 3px 5px -1px rgba(0,0,0,.2),
+          0 6px 10px 0 rgba(0,0,0,.14),
+          0 1px 18px 0 rgba(0,0,0,.12);
   }
 
   .nav-link {
@@ -261,11 +270,27 @@
 
   .fixedLogo li {
     opacity: 1;
+    /* font-size: 1em; */
+  }
+
+  .mat-button {
+    line-height: 2.8em;
+  }
+
+  .fixedLogo li a {
+    /* text-shadow: none; */
+    /* font-size:1em; */
+    font-size: 0.75em;
   }
 
   .navbar {
     padding-bottom: 0;
     padding-top: 0;
+
+    box-shadow:
+          0 3px 5px -1px rgba(0,0,0,.2),
+          0 6px 10px 0 rgba(0,0,0,.14),
+          0 1px 18px 0 rgba(0,0,0,.12);
   }
 
 }
