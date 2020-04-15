@@ -68,7 +68,7 @@
 
 html {
 
-  background: linear-gradient(90deg, rgba(0,0,0,0.13) 0%, rgba(0,0,0,0.27) 5%, rgba(0,0,0,0.39957990031950286) 17%, rgba(0,0,0,0.39957990031950286) 83%, rgba(0,0,0,0.27) 95%, rgba(0,0,0,0.13) 100%),
+  background: linear-gradient(90deg, rgba(0,0,0,0.13) 0%, rgba(0,0,0,0.27) 3%, rgba(0,0,0,0.39957990031950286) 10%, rgba(0,0,0,0.39957990031950286) 90%, rgba(0,0,0,0.27) 97%, rgba(0,0,0,0.13) 100%),
               url("https://images.unsplash.com/photo-1585556557157-cd17d9d79cc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80") no-repeat center center fixed;
 
   background-size: cover;

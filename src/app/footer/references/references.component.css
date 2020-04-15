@@ -225,7 +225,7 @@
     }
 
     #references:hover {
-        height: 10em;
+        height: 11.5em;
         transition: height 0.25s;
         -moz-transition: height 0.25s;
         -webkit-transition: height 0.25s;

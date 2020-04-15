@@ -269,9 +269,9 @@ html,body{
 
   .firstOccur, .endOfBreak {
       font-family: 'Khand', sans-serif;
-      font-size: 1.8em;
+      font-size: 1.6em;
       font-weight: 600;
-      letter-spacing: 0.045em;
+      letter-spacing: 0.05em;
   }
 
   .clockdiv{

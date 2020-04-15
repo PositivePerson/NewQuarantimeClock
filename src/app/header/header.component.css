@@ -93,6 +93,10 @@
 
 .navbar {
   padding-bottom: 0.3rem;
+  box-shadow:
+          0 3px 5px -1px rgba(0,0,0,.2),
+          0 6px 10px 0 rgba(0,0,0,.14),
+          0 1px 18px 0 rgba(0,0,0,.12);
 }
 /*
 #firstfixedLogo {
@@ -203,7 +207,27 @@
   .fixedLogo li {
     opacity: 1;
     padding-left: 0;
-    margin: 0 auto;
+    left: 0;
+    margin: 0 0;
+    width: 33.33333333%;
+    /* align-items: center; */
+  }
+
+  .fixedLogo li a{
+    width: 100%;
+  }
+
+  .leftNav ul {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 0;
+
+  }
+
+  .nav-link {
+    padding: 0;
   }
 
 }

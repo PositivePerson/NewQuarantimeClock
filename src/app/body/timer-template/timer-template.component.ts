@@ -1,15 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 import * as moment from 'moment';
 
-// import { HeaderComponent } from '../../header/header.component'
 import { HeaderComponent } from '../../header/header.component';
 
-// import { Country } from '../timers.template';
-
-// import { Post } from '../post.model';
-// import { PostsService } from '../posts.service';
-
-// declare var logicTimers: any;
+import { Country } from '../../countries/country-template';
+import { CountryService } from '../../country.service';
 
 @Component({
   selector: 'app-timers-list',
@@ -27,15 +22,19 @@ export class TimerListComponent implements OnInit{
 
   date: any;
 
-  countries = [
-      { name: 'Italy', startDate: '2020-01-31T15:30:00+02:00', endDate: '2020-05-04T01:00:00+02:00', leftPast: { days: '', hours: '', minutes: '', seconds: '' }, leftFuture: { days: '', hours: '', minutes: '', seconds: '' } },
-      { name: 'France', startDate: '2020-01-24T14:28:00+02:00', endDate: '2020-05-04T01:00:00+02:00', leftPast: { days: '', hours: '', minutes: '', seconds: '' }, leftFuture: { days: '', hours: '', minutes: '', seconds: '' } },
-      { name: 'Poland', startDate: '2020-03-04T08:00:00+02:00', endDate: '2020-05-04T01:00:00+02:00', leftPast: { days: '', hours: '', minutes: '', seconds: '' }, leftFuture: { days: '', hours: '', minutes: '', seconds: '' } },
-      { name: 'China', startDate: '2019-12-17T15:30:00+02:00', endDate: '2020-05-04T01:00:00+02:00', leftPast: { days: '', hours: '', minutes: '', seconds: '' }, leftFuture: { days: '', hours: '', minutes: '', seconds: '' } }
-    ]
+  // countries = [
+  //     { name: 'Italy', startDate: '2020-01-31T15:30:00+02:00', endDate: '2020-05-04T01:00:00+02:00', leftPast: { days: '', hours: '', minutes: '', seconds: '' }, leftFuture: { days: '', hours: '', minutes: '', seconds: '' } },
+  //     { name: 'France', startDate: '2020-01-24T14:28:00+02:00', endDate: '2020-05-04T01:00:00+02:00', leftPast: { days: '', hours: '', minutes: '', seconds: '' }, leftFuture: { days: '', hours: '', minutes: '', seconds: '' } },
+  //     { name: 'Poland', startDate: '2020-03-04T08:00:00+02:00', endDate: '2020-05-04T01:00:00+02:00', leftPast: { days: '', hours: '', minutes: '', seconds: '' }, leftFuture: { days: '', hours: '', minutes: '', seconds: '' } },
+  //     { name: 'China', startDate: '2019-12-17T15:30:00+02:00', endDate: '2020-05-04T01:00:00+02:00', leftPast: { days: '', hours: '', minutes: '', seconds: '' }, leftFuture: { days: '', hours: '', minutes: '', seconds: '' } }
+  //   ]
 
   // constructor(private searchTextValue: HeaderComponent) { }
-  constructor() { }
+  countries: Country[];
+
+  constructor( countryService: CountryService ) {
+    this.countries = countryService.getCountries();
+  }
 
 
   searchForCountry;
