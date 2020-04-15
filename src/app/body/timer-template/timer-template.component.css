@@ -4,7 +4,7 @@
 
 
 
-/* ===================================E X T R A    L A R G E ============================ */
+/* =================================== U N I V E R S A L ============================ */
 
 
 html,body{
@@ -349,7 +349,8 @@ html,body{
     letter-spacing: 0.085em;
   }
 
-  #Poland, #France, #Italy, #Spain, #China {
+  /* #Poland, #France, #Italy, #Spain, #China */
+  .countryName {
       font-family: 'Playfair Display SC', serif;
       font-size: 3.2em;
       margin-top: 1.4em;
@@ -514,7 +515,7 @@ html,body{
     letter-spacing: 0.085em;
   }
 
-  #Poland, #France, #Italy, #Spain, #China {
+  .countryName {
       font-family: 'Playfair Display SC', serif;
       font-size: 3.2em;
       margin-top: 1.4em;
@@ -677,7 +678,7 @@ html,body{
     letter-spacing: 0.085em;
   }
 
-  #Poland, #France, #Italy, #Spain, #China {
+  .countryName {
       font-family: 'Playfair Display SC', serif;
       font-size: 3.2em;
       margin-top: 1.4em;
@@ -838,7 +839,7 @@ html,body{
     letter-spacing: 0.085em;
   }
 
-  #Poland, #France, #Italy, #Spain, #China {
+  .countryName {
       font-family: 'Playfair Display SC', serif;
       font-size: 3.2em;
       margin-top: 1.4em;
@@ -1000,7 +1001,7 @@ html,body{
     letter-spacing: 0.085em;
   }
 
-  #Poland, #France, #Italy, #Spain, #China {
+  .countryName {
       font-family: 'Playfair Display SC', serif;
       font-size: 3.2em;
       margin-top: 1.4em;
