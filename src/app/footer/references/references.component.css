@@ -66,7 +66,7 @@
       margin-top: -0.3em;
     }
 
-    #ItalyRow:hover i, #PolandRow:hover i, #SpainRow:hover i {
+    .CountryRow i {
       opacity: 1;
     }
 
