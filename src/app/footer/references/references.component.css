@@ -40,7 +40,7 @@ h4 {
     -o-transition: height 0.5s;
     overflow: hidden;
 
-    background: black;
+    background: #171717;
 
     z-index: 1000;
 }
@@ -106,11 +106,11 @@ h4 {
 
 #references:hover {
     /* height: 15em; */
-    transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+    transition: height 0.35s;
+    -moz-transition: height 0.35s;
+    -webkit-transition: height 0.35s;
+    -ms-transition: height 0.35s;
+    -o-transition: height 0.35s;
 }
 
 }
@@ -142,11 +142,11 @@ h4 {
 
 #references:hover {
     /* height: 15em; */
-    transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+    transition: height 0.35s;
+    -moz-transition: height 0.35s;
+    -webkit-transition: height 0.35s;
+    -ms-transition: height 0.35s;
+    -o-transition: height 0.35s;
 }
 
 }
@@ -178,11 +178,11 @@ h4 {
 
 #references:hover {
     /* height: auto; */
-    transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+    transition: height 0.35s;
+    -moz-transition: height 0.35s;
+    -webkit-transition: height 0.35s;
+    -ms-transition: height 0.35s;
+    -o-transition: height 0.35s;
 }
 
 }
@@ -211,11 +211,11 @@ h4 {
     /* --countriesAmount: this.countriesAmount; */
 
     /* height: calc(2.5em + var(--countriesAmount)*2.9em); */
-    transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+    transition: height 0.35s;
+    -moz-transition: height 0.35s;
+    -webkit-transition: height 0.35s;
+    -ms-transition: height 0.35s;
+    -o-transition: height 0.35s;
 
     padding-bottom: 2em;
 }
@@ -244,11 +244,11 @@ h4 {
 
 #references:hover {
     /* height: 11.5em; */
-    transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+    transition: height 0.35s;
+    -moz-transition: height 0.35s;
+    -webkit-transition: height 0.35s;
+    -ms-transition: height 0.35s;
+    -o-transition: height 0.35s;
 }
 
 }

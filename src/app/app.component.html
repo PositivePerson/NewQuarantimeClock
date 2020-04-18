@@ -11,8 +11,11 @@
 
 <footer class="w-100">
   <div class="footer mx-auto">
-    <app-footer-text></app-footer-text>
-    <app-footer-references></app-footer-references>
+    <!-- <app-footer-text></app-footer-text> -->
+    <router-outlet name="forFooter"></router-outlet>
+
+    <!-- <app-footer-references></app-footer-references> -->
+    <router-outlet name="forReferences"></router-outlet>
   </div>
 
 <app-footer-lastline></app-footer-lastline>

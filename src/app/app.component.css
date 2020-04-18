@@ -1,5 +1,24 @@
 
 
+
+/* =====================U N I V E R S A L=================== */
+
+#mainContainer {
+  min-height: 62vh;
+
+  padding-top: 1em;
+}
+
+footer {
+  /* background-color: #2e3333; */
+  background-color: #222;
+  min-height: 5rem;
+  font-size: 1em;
+  /* color: rgba(204, 204, 204, 0.753); */
+  color: #ddd;
+}
+
+
 /* ===========================E X T R A    S M A L L============================ */
 
 
@@ -76,24 +95,7 @@
   }
 
   .footer {
-    width: 60%;
+    width: 64%;
   }
 
-}
-
-/* =====================U N I V E R S A L=================== */
-
-#mainContainer {
-  min-height: 62vh;
-
-  padding-top: 1em;
-}
-
-footer {
-  /* background-color: #2e3333; */
-  background-color: #222;
-  min-height: 5rem;
-  font-size: 1em;
-  /* color: rgba(204, 204, 204, 0.753); */
-  color: #ddd;
 }

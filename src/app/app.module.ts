@@ -19,16 +19,18 @@ import { PandDescComponent } from "./body/pandemic-desc/pandemic-desc.component"
 import { DatePipe, CommonModule } from '@angular/common';
 import { FilterPipe } from './filter.pipe';
 import { AppRoutingModule } from './app-routing.module';
+import { DiseaseComponent } from './body/disease-site/disease-site.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TimerListComponent,
+    DiseaseComponent,
+    PandDescComponent,
     FooterTextComponent,
     ReferencesComponent,
     LastLineComponent,
-    PandDescComponent,
     FilterPipe
   ],
   imports: [
