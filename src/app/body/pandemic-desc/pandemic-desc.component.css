@@ -1,4 +1,106 @@
 
+
+
+/* =========================== U N I V E R S A L ======================= */
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 600;
+  margin-bottom: 1em;
+  font-size: 2.5em;
+}
+
+h2 {
+  /* 'Playfair Display SC', serif */
+  font-family: 'Playfair Display SC', serif ;
+  /* font-size: 2.8em; */
+  font-size: 3.3em;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+}
+
+h3 {
+  text-indent: 0;
+  text-align: center;
+
+  margin-bottom: 0.55em;
+}
+
+.mat-card-subtitle {
+  background: #222222;
+  color: #eee;
+
+  /* margin-top: 3em; */
+  margin-bottom: 5.5em;
+}
+
+
+mat-card-content {
+  /* font-family: 'Libre Baskerville', serif; */
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Libre Baskerville', serif;
+  /* font-size: 1.04em; */
+  font-size: 1.095em;
+  font-weight: 500;
+  letter-spacing: 0.083rem;
+  text-align: justify;
+  text-indent: 10%;
+  /* line-height: 2.15em; */
+  line-height: 1.68em;
+}
+
+.mat-card {
+
+  background: #303030;
+
+  color: #eee;
+  text-shadow:
+        0px 3px 4px rgba(0, 0, 0, 0.09),
+        0px 6px 7px rgba(0, 0, 0, 0.18),
+        0px 3px 2px rgba(0, 0, 0, 0.26);
+      /* 0px 3px 4px rgba(0, 0, 0, 0.24),
+      0px 6px 10px rgba(0, 0, 0, 0.253),
+      0px 13px 15px rgba(0, 0, 0, 0.26); */
+
+
+
+  padding: 4em 5.5em 2em 5.5em;
+
+}
+
+.content {
+  width: 95%;
+  margin: auto;
+}
+
+#WuhanOutbreak {
+  box-shadow:
+      0px 3px 2px rgba(0, 0, 0, 0.27),
+      0px 7px 12px rgba(0, 0, 0, 0.22),
+      0px 12px 17px rgba(0, 0, 0, 0.22);
+}
+
+#siteDesc{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.0em;
+  font-weight: 600;
+  letter-spacing: 0.085em;
+}
+
+#history-card{
+  background: rgb(41, 41, 41);
+
+  font-size: 1.4em;
+  border-radius: 5%;
+  padding: 1em;
+
+  box-shadow:
+      0px 3px 2px rgba(0, 0, 0, 0.27),
+      0px 7px 12px rgba(0, 0, 0, 0.22),
+      0px 12px 17px rgba(0, 0, 0, 0.22);
+}
+
+
 /* ===========================E X T R A    S M A L L============================ */
 
 
@@ -38,88 +140,3 @@
 
 }
 
-
-
-/* =========================== U N I V E R S A L ======================= */
-
-h1 {
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 600;
-  margin-bottom: 1em;
-  font-size: 2.5em;
-}
-
-h2 {
-  /* 'Playfair Display SC', serif */
-  font-family: 'Playfair Display SC', serif ;
-  /* font-size: 2.8em; */
-  font-size: 3.3em;
-  font-weight: 400;
-}
-
-.mat-card-subtitle {
-  color: #eee;
-
-  /* margin-top: 3em; */
-  margin-bottom: 4.5em;
-}
-
-
-mat-card-content {
-  /* font-family: 'Libre Baskerville', serif; */
-  font-family: 'Libre Baskerville', serif;
-  /* font-size: 1.04em; */
-  font-size: 1.095em;
-  font-weight: 500;
-  letter-spacing: 0.083rem;
-  text-align: justify;
-  text-indent: 10%;
-  /* line-height: 2.15em; */
-  line-height: 1.65em;
-}
-
-.mat-card {
-
-  background: #303030;
-
-  color: #eee;
-  text-shadow:
-        0px 3px 4px rgba(0, 0, 0, 0.09),
-        0px 6px 7px rgba(0, 0, 0, 0.18),
-        0px 3px 2px rgba(0, 0, 0, 0.26);
-      /* 0px 3px 4px rgba(0, 0, 0, 0.24),
-      0px 6px 10px rgba(0, 0, 0, 0.253),
-      0px 13px 15px rgba(0, 0, 0, 0.26); */
-
-  padding: 3em 5.5em 2em 5.5em;
-
-}
-
-.content {
-  width: 95%;
-  margin: auto;
-}
-
-#siteDesc{
-  font-family: 'Playfair Display SC', serif;
-  font-size: 1.0em;
-  font-weight: 600;
-  letter-spacing: 0.085em;
-}
-
-#history-card{
-  background: rgb(41, 41, 41);
-
-  font-size: 1.4em;
-  border-radius: 5%;
-  padding: 1em;
-
-  box-shadow:
-      0px 3px 2px rgba(0, 0, 0, 0.27),
-      0px 7px 12px rgba(0, 0, 0, 0.22),
-      0px 12px 17px rgba(0, 0, 0, 0.22);
-}
-
-#paperBack p{
-  text-indent: 10%;
-}

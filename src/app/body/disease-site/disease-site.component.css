@@ -1,4 +1,48 @@
 
+
+/* =========================== U N I V E R S A L ======================= */
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 600;
+  margin-bottom: 1em;
+  font-size: 2.5em;
+}
+
+mat-card-content {
+  /* font-family: 'Playfair Display SC', serif; */
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.95em;
+  font-weight: 600;
+  letter-spacing: 0.085em;
+  text-align: justify;
+  line-height: 1.8em;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+#siteDesc{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.0em;
+  font-weight: 600;
+  letter-spacing: 0.085em;
+}
+
+#history-card{
+  background: rgb(41, 41, 41);
+
+  font-size: 1.4em;
+  border-radius: 5%;
+  padding: 1em;
+}
+
+#paperBack p{
+  text-indent: 10%;
+}
+
 /* ===========================E X T R A    S M A L L============================ */
 
 
@@ -38,46 +82,3 @@
 
 }
 
-
-
-/* =========================== U N I V E R S A L ======================= */
-
-h1 {
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 600;
-  margin-bottom: 1em;
-  font-size: 2.5em;
-}
-
-mat-card-content {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 0.95em;
-  font-weight: 600;
-  letter-spacing: 0.085em;
-  text-align: justify;
-  line-height: 1.8em;
-}
-
-.content {
-  width: 80%;
-  margin: auto;
-}
-
-#siteDesc{
-  font-family: 'Playfair Display SC', serif;
-  font-size: 1.0em;
-  font-weight: 600;
-  letter-spacing: 0.085em;
-}
-
-#history-card{
-  background: rgb(41, 41, 41);
-
-  font-size: 1.4em;
-  border-radius: 5%;
-  padding: 1em;
-}
-
-#paperBack p{
-  text-indent: 10%;
-}
