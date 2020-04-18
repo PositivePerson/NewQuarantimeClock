@@ -158,7 +158,7 @@
 #unicefLogoWriting{
   width: 0px;
   height: 0.75em;
-  margin-right: -0.15em;
+  /* margin-right: -0.15em; */
   overflow: hidden;
   transition: width .35s;
 }

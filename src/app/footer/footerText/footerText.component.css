@@ -9,3 +9,17 @@
   /* font-style: italic; */
   font-family: 'Merriweather', serif;
 }
+
+#virusIcon {
+  align-items: center;
+
+  padding-top: 1.3em;
+  padding-bottom: 3.5em;
+}
+
+#footerText i {
+  font-size: 10em;
+
+  /* padding-right: 0.5em; */
+  margin-left: -0.4em;
+}

@@ -93,11 +93,11 @@ h4 {
 #references {
   height: 3.5em;
   overflow: hidden;
-  transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+  transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  -webkit-transition: height 0.4s;
+  -ms-transition: height 0.4s;
+  -o-transition: height 0.4s;
 }
 
 #references .row {
@@ -129,11 +129,11 @@ h4 {
 #references {
   height: 3.5em;
   overflow: hidden;
-  transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+  transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  -webkit-transition: height 0.4s;
+  -ms-transition: height 0.4s;
+  -o-transition: height 0.4s;
 }
 
 #references .row {
@@ -169,11 +169,11 @@ h4 {
 #references {
   height: 2.5em;
   overflow: hidden;
-  transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+  transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  -webkit-transition: height 0.4s;
+  -ms-transition: height 0.4s;
+  -o-transition: height 0.4s;
 }
 
 #references:hover {
@@ -200,11 +200,11 @@ h4 {
 #references {
   height: 2.5em;
   overflow: hidden;
-  transition: height 0.25s;
-    -moz-transition: height 0.25s;
-    -webkit-transition: height 0.25s;
-    -ms-transition: height 0.25s;
-    -o-transition: height 0.25s;
+  transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  -webkit-transition: height 0.4s;
+  -ms-transition: height 0.4s;
+  -o-transition: height 0.4s;
 }
 
 #references:hover {
@@ -235,11 +235,11 @@ h4 {
 #references {
   height: 2.5em;
   overflow: hidden;
-  transition: height 0.25s;
-  -moz-transition: height 0.25s;
-  -webkit-transition: height 0.25s;
-  -ms-transition: height 0.25s;
-  -o-transition: height 0.25s;
+  transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  -webkit-transition: height 0.4s;
+  -ms-transition: height 0.4s;
+  -o-transition: height 0.4s;
 }
 
 #references:hover {
