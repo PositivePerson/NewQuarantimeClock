@@ -10,6 +10,15 @@
     margin-top: 2.9em;
   }
 
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
+  }
+
   /* .footer {
     width: 60%;
   } */
@@ -24,6 +33,15 @@
   .wrapper {
     /* width: 1400px; */
     margin-top: 2.9em;
+  }
+
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
   }
 
   /* .footer {
@@ -42,8 +60,18 @@
     margin-top: 2.9em;
   }
 
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
+    bottom: 0;
+  }
+
   .footer {
-    width: 92%;
+    width: 90%;
   }
 
 }
@@ -56,6 +84,15 @@
   .wrapper {
     /* width: 1400px; */
     margin-top: 2.5em;
+  }
+
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
   }
 
   .footer {
@@ -75,6 +112,15 @@
     width: 70em;
   }
 
+  footer {
+    /* background-color: #2e3333; */
+    background-color: #222;
+    min-height: 5rem;
+    font-size: 1em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;
+  }
+
   .footer {
     width: 60%;
   }
@@ -87,13 +133,4 @@
   min-height: 62vh;
 
   padding-top: 1em;
-}
-
-footer {
-  /* background-color: #2e3333; */
-  background-color: #222;
-  min-height: 5rem;
-  font-size: 1em;
-  /* color: rgba(204, 204, 204, 0.753); */
-  color: #ddd;
 }

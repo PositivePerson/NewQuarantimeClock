@@ -32,7 +32,7 @@
               "./node_modules/jquery/dist/jquery.min.js",
               "./src/assets/js/logicNav.js",
               "./src/assets/js/logicScrollLine.js",
-              "./src/assets/js/dynamicReferences.js"
+              "./src/assets/js/logicTimers.js"
             ]
           },
           "configurations": {
