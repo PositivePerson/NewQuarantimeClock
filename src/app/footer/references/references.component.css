@@ -1,9 +1,7 @@
 
 
 /* =========================== U N I V E R S A L ============================ */
-
-
-    h3 {
+h3 {
       font-size: 1.25em;
       color: #ffffffba;
       text-shadow: none;
@@ -53,6 +51,8 @@
 
     .referenceLink:hover {
         height: 4.5em;
+
+        z-index: 1001;
     }
 
     .referenceLink p{
@@ -66,7 +66,11 @@
       margin-top: -0.3em;
     }
 
-    .CountryRow i {
+    .CountryRow {
+      height: 2.9em;
+    }
+
+    .CountryRow:hover i {
       opacity: 1;
     }
 
@@ -97,7 +101,7 @@
     }
 
     #references:hover {
-        height: 15em;
+        /* height: 15em; */
         transition: height 0.25s;
         -moz-transition: height 0.25s;
         -webkit-transition: height 0.25s;
@@ -115,6 +119,7 @@
 
     .country:hover + .referenceLink{
         height: 4.5em;
+        z-index: 1001;
     }
 
     #references {
@@ -132,7 +137,7 @@
     }
 
     #references:hover {
-        height: 15em;
+        /* height: 15em; */
         transition: height 0.25s;
         -moz-transition: height 0.25s;
         -webkit-transition: height 0.25s;
@@ -147,6 +152,11 @@
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+    }
 
     .country:hover + .referenceLink{
         height: 5em;
@@ -163,7 +173,7 @@
     }
 
     #references:hover {
-        height: 11.5em;
+        /* height: auto; */
         transition: height 0.25s;
         -moz-transition: height 0.25s;
         -webkit-transition: height 0.25s;
@@ -194,12 +204,16 @@
     }
 
     #references:hover {
-        height: 11.5em;
+        /* --countriesAmount: this.countriesAmount; */
+
+        /* height: calc(2.5em + var(--countriesAmount)*2.9em); */
         transition: height 0.25s;
         -moz-transition: height 0.25s;
         -webkit-transition: height 0.25s;
         -ms-transition: height 0.25s;
         -o-transition: height 0.25s;
+
+        padding-bottom: 2em;
     }
 
 }
@@ -225,7 +239,7 @@
     }
 
     #references:hover {
-        height: 11.5em;
+        /* height: 11.5em; */
         transition: height 0.25s;
         -moz-transition: height 0.25s;
         -webkit-transition: height 0.25s;
