@@ -1,6 +1,32 @@
 
 
+/* ----------------------  S C R O L L -------------------- */
 
+@media (min-width: 768px) {
+  html {
+    --scrollbarBG: #CFD8DC;
+    --thumbBG: #90A4AE;
+  }
+  body::-webkit-scrollbar {
+    width: 1.3em;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
+
+  body {
+    overflow-y: auto;
+  }
+}
 
 /* =========================== U N I V E R S A L ============================ */
 
@@ -101,7 +127,9 @@ body{
     background: transparent;
 
     height:100%;
-    overflow: scroll;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 
     /* background: linear-gradient(90deg, rgba(0,0,0,0.13) 0%, rgba(0,0,0,0.27) 5%, rgba(0,0,0,0.39957990031950286) 17%, rgba(0,0,0,0.39957990031950286) 83%, rgba(0,0,0,0.27) 95%, rgba(0,0,0,0.13) 100%),
@@ -157,7 +185,9 @@ body{
     background: linear-gradient(90deg, rgba(0,0,0,0.17) 0%, rgba(0,0,0,0.27) 5%, rgba(0,0,0,0.39957990031950286) 13%, rgba(0,0,0,0.39957990031950286) 87%, rgba(0,0,0,0.27) 95%, rgba(0,0,0,0.17) 100%);
 
     height:100%;
-    overflow: scroll;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 
     /* background: linear-gradient(90deg, rgba(0,0,0,0.13) 0%, rgba(0,0,0,0.27) 5%, rgba(0,0,0,0.39957990031950286) 17%, rgba(0,0,0,0.39957990031950286) 83%, rgba(0,0,0,0.27) 95%, rgba(0,0,0,0.13) 100%),

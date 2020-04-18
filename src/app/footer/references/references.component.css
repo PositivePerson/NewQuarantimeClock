@@ -41,6 +41,8 @@ h4 {
     overflow: hidden;
 
     background: black;
+
+    z-index: 1000;
 }
 
 .referenceLink span {
