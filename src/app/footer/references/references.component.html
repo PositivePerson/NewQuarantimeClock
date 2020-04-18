@@ -16,11 +16,12 @@
           </div>
           <div class="row CountryRow" *ngFor="let country of countries" >
               <div class="col-md-1"></div>
-              <div class="col-12 col-md-3 text-center text-md-left px-0 pl-md-3 pl-lg-5 country">
-                  <h4 class="ml-md-2"><i class="fas fa-chevron-right"></i> • {{country.name}}<span class="d-md-none"> • </span><i class="d-md-none fas fa-chevron-left"></i></h4>
+              <div class="col-12 col-md-3 text-center text-md-left px-0 pl-md-0 pl-lg-2 country">
+                  <h4 class="ml-md-2 d-none d-md-block"><i class="fas fa-chevron-right"></i> • {{ (country.name.length > 11)? (country.name | slice:0:9)+'..':(country.name) }}<span class="d-md-none"> • </span><i class="d-md-none fas fa-chevron-left"></i></h4>
+                  <h4 class="ml-md-2 d-md-none"><i class="fas fa-chevron-right"></i> • {{ country.name }}<span class="d-md-none"> • </span><i class="d-md-none fas fa-chevron-left"></i></h4>
               </div>
-              <div class="col-md-8 pt-2 referenceLink">
-                  <div class="">
+              <div class="col-md-8 referenceLink">
+                  <div class="pt-1">
                       <p><span class="d-none d-sm-inline">Beginning: </span>
                           <a class="" href="{{country.startLink}}">
                               {{country.startLink | slice:0:40}}

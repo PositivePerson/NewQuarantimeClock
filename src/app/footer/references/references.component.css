@@ -1,74 +1,80 @@
 
 
 /* =========================== U N I V E R S A L ============================ */
+h3 {
+  font-size: 1.25em;
+  color: #ffffffba;
+  text-shadow: none;
+  /* color: #6e6f6f; */
+}
 
 
-    h3 {
-      font-size: 1.25em;
-      color: #ffffffba;
-      text-shadow: none;
-      /* color: #6e6f6f; */
-    }
+h4 {
+    /* padding: 0.5em auto; */
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0em;
+    letter-spacing: 0.08em;
+    font-size: 1.25em;
+    /* color: rgba(204, 204, 204, 0.753); */
+    color: #ccc;;
+    /* color: #6e6f6f; */
+    cursor: grab;
+}
 
+.country i {
+  opacity: 0;
+  transition: opacity .18s ease-in-out;
+  -moz-transition: opacity .18s ease-in-out;
+  -webkit-transition: opacity .18s ease-in-out;
+  -ms-transition: opacity .18s ease-in-out;
+  -o-transition: opacity .18s ease-in-out;
+}
 
-    h4 {
-        /* padding: 0.5em auto; */
-        margin-top: 0.5em;
-        padding-bottom: 0.5em;
-        margin-bottom: 0em;
-        letter-spacing: 0.08em;
-        font-size: 1.25em;
-        /* color: rgba(204, 204, 204, 0.753); */
-        color: #ccc;;
-        /* color: #6e6f6f; */
-        cursor: grab;
-    }
+.referenceLink {
+    height: 0em;
+    transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    overflow: hidden;
 
-    .country i {
-      opacity: 0;
-      transition: opacity .18s ease-in-out;
-      -moz-transition: opacity .18s ease-in-out;
-      -webkit-transition: opacity .18s ease-in-out;
-      -ms-transition: opacity .18s ease-in-out;
-      -o-transition: opacity .18s ease-in-out;
-    }
+    background: black;
+}
 
-    .referenceLink {
-        height: 0em;
-        transition: height 0.5s;
-        -moz-transition: height 0.5s;
-        -webkit-transition: height 0.5s;
-        -ms-transition: height 0.5s;
-        -o-transition: height 0.5s;
-        overflow: hidden;
-    }
+.referenceLink span {
+    letter-spacing: 0.1em;
+}
 
-    .referenceLink span {
-        letter-spacing: 0.1em;
-    }
+.country:hover{
+    color: rgba(224, 224, 224, 0.876);
+}
 
-    .country:hover{
-        color: rgba(224, 224, 224, 0.876);
-    }
+.referenceLink:hover {
+    height: 4.5em;
 
-    .referenceLink:hover {
-        height: 4.5em;
-    }
+    z-index: 1001;
+}
 
-    .referenceLink p{
-        height: 1.5em;
-        overflow: hidden;
-    }
+.referenceLink p{
+    height: 1.5em;
+    overflow: hidden;
+}
 
-    #referenceArrow {
-      position: absolute;
-      font-size: 1.5em;
-      margin-top: -0.3em;
-    }
+#referenceArrow {
+  position: absolute;
+  font-size: 1.5em;
+  margin-top: -0.3em;
+}
 
-    .CountryRow i {
-      opacity: 1;
-    }
+.CountryRow {
+  height: 2.9em;
+}
+
+.CountryRow:hover i {
+  opacity: 1;
+}
 
 
 
@@ -78,32 +84,32 @@
 
 @media (max-width: 575.98px) {
 
-    .country:hover + .referenceLink{
-        height: 4.5em;
-    }
+.country:hover + .referenceLink{
+    height: 4.5em;
+}
 
-    #references {
-      height: 3.5em;
-      overflow: hidden;
-      transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+#references {
+  height: 3.5em;
+  overflow: hidden;
+  transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+}
 
-    #references .row {
-        height: 3.5em;
-    }
+#references .row {
+    height: 3.5em;
+}
 
-    #references:hover {
-        height: 15em;
-        transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+#references:hover {
+    /* height: 15em; */
+    transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+}
 
 }
 
@@ -113,32 +119,33 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    .country:hover + .referenceLink{
-        height: 4.5em;
-    }
+.country:hover + .referenceLink{
+    height: 4.5em;
+    z-index: 1001;
+}
 
-    #references {
-      height: 3.5em;
-      overflow: hidden;
-      transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+#references {
+  height: 3.5em;
+  overflow: hidden;
+  transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+}
 
-    #references .row {
-        height: 3.5em;
-    }
+#references .row {
+    height: 3.5em;
+}
 
-    #references:hover {
-        height: 15em;
-        transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+#references:hover {
+    /* height: 15em; */
+    transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+}
 
 }
 
@@ -148,28 +155,33 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .country:hover + .referenceLink{
-        height: 5em;
-    }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 
-    #references {
-      height: 2.5em;
-      overflow: hidden;
-      transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+.country:hover + .referenceLink{
+    height: 5em;
+}
 
-    #references:hover {
-        height: 11.5em;
-        transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+#references {
+  height: 2.5em;
+  overflow: hidden;
+  transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+}
+
+#references:hover {
+    /* height: auto; */
+    transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+}
 
 }
 
@@ -179,28 +191,32 @@
 
 @media (min-width: 992px) and (max-width: 1249.98px) {
 
-    .country:hover + .referenceLink{
-        height: 4.5em;
-    }
+.country:hover + .referenceLink{
+    height: 4.5em;
+}
 
-    #references {
-      height: 2.5em;
-      overflow: hidden;
-      transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+#references {
+  height: 2.5em;
+  overflow: hidden;
+  transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+}
 
-    #references:hover {
-        height: 11.5em;
-        transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+#references:hover {
+    /* --countriesAmount: this.countriesAmount; */
+
+    /* height: calc(2.5em + var(--countriesAmount)*2.9em); */
+    transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+
+    padding-bottom: 2em;
+}
 
 }
 
@@ -210,27 +226,27 @@
 
 @media (min-width: 1250px) {
 
-    .country:hover + .referenceLink{
-        height: 4.5em;
-    }
+.country:hover + .referenceLink{
+    height: 4.5em;
+}
 
-    #references {
-      height: 2.5em;
-      overflow: hidden;
-      transition: height 0.25s;
-      -moz-transition: height 0.25s;
-      -webkit-transition: height 0.25s;
-      -ms-transition: height 0.25s;
-      -o-transition: height 0.25s;
-    }
+#references {
+  height: 2.5em;
+  overflow: hidden;
+  transition: height 0.25s;
+  -moz-transition: height 0.25s;
+  -webkit-transition: height 0.25s;
+  -ms-transition: height 0.25s;
+  -o-transition: height 0.25s;
+}
 
-    #references:hover {
-        height: 11.5em;
-        transition: height 0.25s;
-        -moz-transition: height 0.25s;
-        -webkit-transition: height 0.25s;
-        -ms-transition: height 0.25s;
-        -o-transition: height 0.25s;
-    }
+#references:hover {
+    /* height: 11.5em; */
+    transition: height 0.25s;
+    -moz-transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    -ms-transition: height 0.25s;
+    -o-transition: height 0.25s;
+}
 
 }
