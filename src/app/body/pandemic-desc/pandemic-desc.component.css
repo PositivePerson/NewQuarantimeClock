@@ -17,6 +17,13 @@ h2 {
   font-size: 3.3em;
   letter-spacing: 0.04em;
   font-weight: 400;
+
+  /* box-shadow:
+      0px 2px 4px rgba(34, 34, 34, 0.25),
+      0px 4px 5px rgba(34, 34, 34, 0.2),
+      0px 7px 6px rgba(34, 34, 34, 0.1); */
+
+  /* overflow: hidden; */
 }
 
 h3 {
@@ -24,6 +31,11 @@ h3 {
   text-align: center;
 
   margin-bottom: 0.55em;
+
+  text-shadow:
+         0px 2px 4px rgba(0, 0, 0, 0.35),
+        0px 4px 7px rgba(0, 0, 0, 0.2),
+        0px 7px 9px rgba(0, 0, 0, 0.15);
 }
 
 mat-card.mat-card.mat-focus-indicator {
@@ -51,6 +63,11 @@ mat-card-content {
 
 mat-card-content p{
   text-indent: 10%;
+
+  text-shadow:
+         0px 2px 4px rgba(0, 0, 0, 0.35),
+        0px 4px 7px rgba(0, 0, 0, 0.2),
+        0px 7px 9px rgba(0, 0, 0, 0.15);
 }
 
 .mat-card-subtitle {
@@ -65,7 +82,7 @@ mat-card-content p{
   font-size: 6.5em;
   text-align: center;
 
-  /* padding-top: 1em; */
+  margin-top: 1em;
   margin-bottom: 0.4em;
 
 }
@@ -90,6 +107,7 @@ mat-card-content p{
       0px 13px 15px rgba(0, 0, 0, 0.26); */
 
   padding: 0;
+  padding-bottom: 2em;
   /* padding: 4em 5.5em 2em 5.5em; */
 
 }
