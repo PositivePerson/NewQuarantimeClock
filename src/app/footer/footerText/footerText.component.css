@@ -29,6 +29,11 @@
   display: inline;
 }
 
+#containerFooterText {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
 
 /* ===========================E X T R A    S M A L L============================ */
 
@@ -79,6 +84,21 @@
 
 
 @media (min-width: 1200px) {
+
+  /* #footerText i {
+    font-size: 9em;
+  } */
+
+  #virusIcon {
+    align-items: center;
+
+    padding-top: 4.5em;
+    padding-bottom: 5.5em;
+  }
+
+  #containerFooterText {
+    padding-bottom: 5em;
+  }
 
 }
 
