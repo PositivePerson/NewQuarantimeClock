@@ -30,6 +30,8 @@ h3 {
   text-indent: 0;
   text-align: center;
 
+  font-size: 2.5em;
+
   margin-bottom: 0.55em;
 
   text-shadow:
@@ -46,19 +48,35 @@ mat-card.mat-card.mat-focus-indicator {
 }
 
 mat-card-content {
-  /* font-family: 'Libre Baskerville', serif; */
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Libre Baskerville', serif;  */
   /* font-size: 1.04em; */
   font-size: 1.095em;
   font-weight: 500;
   letter-spacing: 0.083rem;
   text-align: justify;
-  /* line-height: 2.15em; */
+
   line-height: 1.68em;
 
-  padding: 0 1em;
+  padding: 0 4em;
 
 }
+
+mat-card-content ul {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+.mat-card-content ul li {
+  list-style-position: inside;
+
+  text-indent: 2em;
+
+  padding-bottom: 1em;
+}
+
+/* mat-card-content li p {
+  text-indent: 0;
+} */
 
 mat-card-content p{
   text-indent: 10%;
@@ -69,22 +87,22 @@ mat-card-content p{
         0px 7px 9px rgba(0, 0, 0, 0.15);
 }
 
-
 .mat-card-subtitle {
   background: #222222;
   color: #eee;
 
-  /* margin-top: 3em; */
-  margin-bottom: 5em;
+  margin-bottom: 6em;
+}
+
+.preIcon:not(:first-child) {
+  margin-top: 1.0em;
 }
 
 .preIcon {
   font-size: 6.5em;
   text-align: center;
 
-  margin-top: 1em;
-  margin-bottom: 0.4em;
-
+  margin-bottom: 0.3em;
 }
 
 .preIcon i {
@@ -92,23 +110,14 @@ mat-card-content p{
 }
 
 .mat-card {
+  font-family: 'Manrope', sans-serif;
 
-  /* background: #303030; */
   background: #2f2f2f;
 
   color: #eee;
-  /* text-shadow:
-      0px 2px 8px -1px rgba(0, 0, 0, 0.2),
-      0px 1px 20px 0px rgba(0, 0, 0, 0.14),
-      0px 1px 13px 0px rgba(0, 0, 0, 0.12); */
-
-      /* 0px 3px 4px rgba(0, 0, 0, 0.24),
-      0px 6px 10px rgba(0, 0, 0, 0.253),
-      0px 13px 15px rgba(0, 0, 0, 0.26); */
 
   padding: 0;
   padding-bottom: 2em;
-  /* padding: 4em 5.5em 2em 5.5em; */
 
 }
 
@@ -122,28 +131,7 @@ mat-card-content p{
   font-size: 1.4em;
   border-radius: 5%;
   padding: 1em;
-  /* box-shadow:
-        0px 2px 8px -1px rgba(0, 0, 0, 0.2),
-        0px 1px 20px 0px rgba(0, 0, 0, 0.14),
-        0px 1px 13px 0px rgba(0, 0, 0, 0.12); */
 }
-
-/* #WuhanOutbreak {
-  box-shadow:
-      0px 3px 2px rgba(0, 0, 0, 0.27),
-      0px 7px 12px rgba(0, 0, 0, 0.22),
-      0px 12px 17px rgba(0, 0, 0, 0.22);
-
-} */
-
-/* #siteDesc{
-  font-family: 'Playfair Display SC', serif;
-  font-size: 1.0em;
-  font-weight: 600;
-  letter-spacing: 0.085em;
-} */
-
-
 
 
 /* ===========================E X T R A    S M A L L============================ */

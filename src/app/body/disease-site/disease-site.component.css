@@ -94,17 +94,23 @@ mat-card-content p{
   margin-bottom: 6em;
 }
 
+.preIcon:not(:first-child) {
+  margin-top: 1.0em;
+}
+
 .preIcon {
   font-size: 6.5em;
   text-align: center;
 
-  margin-top: 1.0em;
   margin-bottom: 0.3em;
-
 }
 
 .preIcon i {
   display: inline;
+}
+
+.mat-card-content .list-caption {
+  text-indent: 0;
 }
 
 .mat-card {
