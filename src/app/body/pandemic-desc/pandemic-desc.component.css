@@ -47,8 +47,7 @@ mat-card.mat-card.mat-focus-indicator {
 
 mat-card-content {
   /* font-family: 'Libre Baskerville', serif; */
-  /* font-family: 'Libre Baskerville', serif; */
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Merriweather', serif;
   /* font-size: 1.04em; */
   font-size: 1.095em;
   font-weight: 500;
@@ -93,8 +92,8 @@ mat-card-content p{
 
 .mat-card {
 
-  background: #303030;
-  /* background: transparent; */
+  /* background: #303030; */
+  background: #2f2f2f;
 
   color: #eee;
   /* text-shadow:
