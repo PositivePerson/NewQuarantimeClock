@@ -61,6 +61,23 @@ mat-card-content {
 
 }
 
+mat-card-content ul {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+.mat-card-content ul li {
+  list-style-position: inside;
+
+  text-indent: 2em;
+
+  padding-bottom: 1em;
+}
+
+/* mat-card-content li p {
+  text-indent: 0;
+} */
+
 mat-card-content p{
   text-indent: 10%;
 
