@@ -12,6 +12,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterTextComponent } from './footer/footerText/footerText.component';
+import { FooterTextPandemicComponent } from './footer/footerTextPandemic/footerTextPandemic.component';
 import { LastLineComponent } from './footer/lastLine/lastLine.component';
 import { ReferencesComponent } from './footer/references/references.component';
 import { TimerListComponent } from './body/timer-template/timer-template.component';
@@ -29,6 +30,7 @@ import { DiseaseComponent } from './body/disease-site/disease-site.component';
     DiseaseComponent,
     PandDescComponent,
     FooterTextComponent,
+    FooterTextPandemicComponent,
     ReferencesComponent,
     LastLineComponent,
     FilterPipe

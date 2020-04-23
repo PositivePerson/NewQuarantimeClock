@@ -1,0 +1,104 @@
+
+
+
+/* =========================== U N I V E R S A L ======================= */
+
+#footerText {
+  text-align: justify;
+  text-indent: 10%;
+  font-size: 1.3em;
+  line-height: 1.7em;
+  font-weight: 300;
+  letter-spacing: 0.045em;
+  /* font-style: italic; */
+  font-family: 'Merriweather', serif;
+}
+
+#virusIcon {
+  align-items: center;
+
+  padding-top: 1.3em;
+  padding-bottom: 3.5em;
+}
+
+#footerText i {
+  font-size: 10em;
+
+  margin-left: -10%;
+
+  display: inline;
+}
+
+#containerFooterText {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+
+/* ===========================E X T R A    S M A L L============================ */
+
+
+@media (max-width: 575.98px) {
+
+  #footerText {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #footerText i {
+    font-size: 7em;
+  }
+
+}
+
+
+/* ===================================S M A L L============================ */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  #footerText i {
+    font-size: 9em;
+  }
+
+}
+
+
+/* ===================================M E D I U M============================ */
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+
+/* ====================================L A R G E============================================ */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+/* ===================================E X T R A    L A R G E ============================ */
+
+
+@media (min-width: 1200px) {
+
+  /* #footerText i {
+    font-size: 9em;
+  } */
+
+  #virusIcon {
+    align-items: center;
+
+    padding-top: 4.5em;
+    padding-bottom: 5.5em;
+  }
+
+  #containerFooterText {
+    padding-bottom: 5em;
+  }
+
+}
+

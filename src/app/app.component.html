@@ -1,22 +1,25 @@
 
-
-<div class="wrapper mt-5 mt-xl-3 mx-auto">
-  <div class="container-fluid" id="mainContainer">
-    <app-header></app-header>
+  <div class="wrapper mt-5 mt-xl-3 mx-auto">
+    <div class="container-fluid" id="mainContainer">
+      <!-- <app-header></app-header> -->
+      <router-outlet name="forHeader"></router-outlet>
 
       <router-outlet></router-outlet>
+      <!-- <router-outlet name="forBody"></router-outlet> -->
 
-  </div>
-</div>
-
-<footer class="w-100">
-  <div class="footer mx-auto">
-    <!-- <app-footer-text></app-footer-text> -->
-    <router-outlet name="forFooter"></router-outlet>
-
-    <!-- <app-footer-references></app-footer-references> -->
-    <router-outlet name="forReferences"></router-outlet>
+    </div>
   </div>
 
-<app-footer-lastline></app-footer-lastline>
-</footer>
+  <footer class="w-100">
+    <div class="footer mx-auto">
+      <!-- <app-footer-text></app-footer-text> -->
+      <router-outlet name="forFooter"></router-outlet>
+
+      <!-- <app-footer-references></app-footer-references> -->
+      <router-outlet name="forReferences"></router-outlet>
+    </div>
+
+  <router-outlet name="forLastLine"></router-outlet>
+  <!-- <app-footer-lastline></app-footer-lastline> -->
+  </footer>
+
