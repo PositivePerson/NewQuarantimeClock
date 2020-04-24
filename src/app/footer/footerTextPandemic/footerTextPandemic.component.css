@@ -3,23 +3,30 @@
 
 /* =========================== U N I V E R S A L ======================= */
 
-#footerText {
+#containerFooterTextPandemic .row:not(:first-child) {
+  font-size: 0.9em;
+}
+
+#containerFooterTextPandemic {
   text-align: justify;
   text-indent: 10%;
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 1.7em;
   font-weight: 300;
   letter-spacing: 0.045em;
   /* font-style: italic; */
   font-family: 'Merriweather', serif;
+
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
-#virusIcon {
+/* #virusIcon {
   align-items: center;
 
   padding-top: 1.3em;
   padding-bottom: 3.5em;
-}
+} */
 
 #footerText i {
   font-size: 10em;
@@ -29,9 +36,8 @@
   display: inline;
 }
 
-#containerFooterText {
-  padding-top: 3em;
-  padding-bottom: 3em;
+#otherPandemics {
+  /* font-size: 0.7em; */
 }
 
 
@@ -96,7 +102,7 @@
     padding-bottom: 5.5em;
   }
 
-  #containerFooterText {
+  #containerFooterTextPandemic {
     padding-bottom: 5em;
   }
 
