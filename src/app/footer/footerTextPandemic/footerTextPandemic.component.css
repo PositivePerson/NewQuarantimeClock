@@ -5,6 +5,7 @@
 
 #containerFooterTextPandemic .row:not(:first-child) {
   font-size: 0.9em;
+  line-height: 2.8em;
 }
 
 #containerFooterTextPandemic {
@@ -18,7 +19,7 @@
   font-family: 'Merriweather', serif;
 
   padding-top: 3em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 /* #virusIcon {
@@ -28,17 +29,24 @@
   padding-bottom: 3.5em;
 } */
 
-#footerText i {
+/* #footerText i {
   font-size: 10em;
 
   margin-left: -10%;
 
   display: inline;
+} */
+
+.row #covidData {
+  /* font-weight: bold; */
+  font-weight: 400;
+  font-size: 1.1em !important;
+  /* line-height: 3em !important; */
 }
 
-#otherPandemics {
-  /* font-size: 0.7em; */
-}
+/* #otherPandemics {
+  font-size: 0.7em;
+} */
 
 
 /* ===========================E X T R A    S M A L L============================ */
@@ -91,19 +99,8 @@
 
 @media (min-width: 1200px) {
 
-  /* #footerText i {
-    font-size: 9em;
-  } */
-
-  #virusIcon {
-    align-items: center;
-
-    padding-top: 4.5em;
-    padding-bottom: 5.5em;
-  }
-
   #containerFooterTextPandemic {
-    padding-bottom: 5em;
+    /* padding-bottom: 5em; */
   }
 
 }
