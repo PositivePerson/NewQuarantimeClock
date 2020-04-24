@@ -3,12 +3,7 @@
 
 /* =========================== U N I V E R S A L ======================= */
 
-#containerFooterTextPandemic .row:not(:first-child) {
-  font-size: 0.9em;
-  line-height: 2.8em;
-}
-
-#containerFooterTextPandemic {
+#containerFooterTextDisease {
   text-align: justify;
   text-indent: 10%;
   font-size: 1.2em;
@@ -22,31 +17,6 @@
   padding-bottom: 2em;
 }
 
-/* #virusIcon {
-  align-items: center;
-
-  padding-top: 1.3em;
-  padding-bottom: 3.5em;
-} */
-
-/* #footerText i {
-  font-size: 10em;
-
-  margin-left: -10%;
-
-  display: inline;
-} */
-
-.row #covidData {
-  /* font-weight: bold; */
-  font-weight: 400;
-  font-size: 1.1em !important;
-  /* line-height: 3em !important; */
-}
-
-#otherPandemicsNames {
-  font-size: 0.97em !important;
-}
 
 
 /* ===========================E X T R A    S M A L L============================ */

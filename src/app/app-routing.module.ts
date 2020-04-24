@@ -10,6 +10,7 @@ import { FooterTextPandemicComponent } from './footer/footerTextPandemic/footerT
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LastLineComponent } from './footer/lastLine/lastLine.component';
+import { FooterTextDiseaseComponent } from './footer/footerTextDisease/footerTextDisease.component';
 
 const routes: Routes = [
   { path: '', children: [
@@ -25,7 +26,7 @@ const routes: Routes = [
     // { path: '', outlet: "forBody", component: TimerListComponent },
     { path: '', outlet: "forHeader", component: HeaderComponent },
     { path: '', outlet: "primary", component: DiseaseComponent },
-    { path: '', outlet: "forFooter", component: FooterTextComponent },
+    { path: '', outlet: "forFooter", component: FooterTextDiseaseComponent },
     { path: '', outlet: "forLastLine", component: LastLineComponent }
   ] },
 
