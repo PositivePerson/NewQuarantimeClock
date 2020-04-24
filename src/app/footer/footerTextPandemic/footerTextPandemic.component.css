@@ -37,6 +37,15 @@
   display: inline;
 } */
 
+hr {
+  background-color: #171717 !important;
+}
+
+#hrUnderCovid {
+  width: 45%;
+  margin-left: 31%;
+}
+
 .row #covidData {
   /* font-weight: bold; */
   font-weight: 400;
@@ -46,6 +55,7 @@
 
 #otherPandemicsNames {
   font-size: 0.97em !important;
+  line-height: 1.8em !important;
 }
 
 

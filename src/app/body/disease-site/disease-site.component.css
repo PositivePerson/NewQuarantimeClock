@@ -11,19 +11,10 @@ h1 {
 }
 
 h2 {
-  /* 'Playfair Display SC', serif */
   font-family: 'Playfair Display SC', serif ;
-  /* font-size: 2.8em; */
   font-size: 3.3em;
   letter-spacing: 0.04em;
   font-weight: 400;
-
-  /* box-shadow:
-      0px 2px 4px rgba(34, 34, 34, 0.25),
-      0px 4px 5px rgba(34, 34, 34, 0.2),
-      0px 7px 6px rgba(34, 34, 34, 0.1); */
-
-  /* overflow: hidden; */
 }
 
 h3 {
@@ -48,8 +39,6 @@ mat-card.mat-card.mat-focus-indicator {
 }
 
 mat-card-content {
-  /* font-family: 'Libre Baskerville', serif;  */
-  /* font-size: 1.04em; */
   font-size: 1.095em;
   font-weight: 500;
   letter-spacing: 0.083rem;
@@ -73,10 +62,6 @@ mat-card-content ul {
 
   padding-bottom: 1em;
 }
-
-/* mat-card-content li p {
-  text-indent: 0;
-} */
 
 mat-card-content p{
   text-indent: 10%;
@@ -143,6 +128,64 @@ mat-card-content p{
 
 @media (max-width: 575.98px) {
 
+  h1 {
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    font-size: 3em;
+
+    padding: 0.15em 1em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  p {
+    /* margin-bottom: 0.8em; */
+  }
+
+  mat-card {
+    padding-bottom: 2em !important;
+  }
+
+  mat-card-subtitle {
+    margin-bottom: 4em !important;
+  }
+
+  mat-card-content {
+    letter-spacing: 0.04em;
+
+    line-height: 1.5em;
+
+    font-weight: 400;
+
+    padding: 0 0.8em;
+
+    /* word-spacing: 0.15em; */
+  }
+
+  mat-card-content li {
+    padding-bottom: 0.7em !important;
+  }
+
+  .content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .preIcon:not(:first-child) {
+    margin-top: 0.55em;
+  }
+
+  .preIcon {
+    font-size: 6.2em;
+
+    margin-bottom: 0.15em;
+  }
+
+
 }
 
 
@@ -150,6 +193,34 @@ mat-card-content p{
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+  mat-card {
+    padding-bottom: 2em !important;
+  }
+
+  mat-card-content {
+    letter-spacing: 0.07em;
+
+    padding: 0 2.8em;
+
+    /* word-spacing: 0.15em; */
+  }
+
+  .content {
+    width: 94.2%;
+    margin: auto;
+  }
+
+  .preIcon:not(:first-child) {
+    margin-top: 0.85em;
+  }
+
+  .preIcon {
+    font-size: 6.2em;
+
+    margin-bottom: 0.26em;
+  }
+
 
 }
 
@@ -159,6 +230,11 @@ mat-card-content p{
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+  .content {
+    width: 86.2%;
+    margin: auto;
+  }
+
 }
 
 
@@ -167,6 +243,11 @@ mat-card-content p{
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+  .content {
+    width: 84.2%;
+    margin: auto;
+  }
+
 }
 
 
@@ -174,6 +255,12 @@ mat-card-content p{
 
 
 @media (min-width: 1200px) {
+
+
+  .content {
+    width: 82.2%;
+    margin: auto;
+  }
 
 }
 

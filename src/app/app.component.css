@@ -29,6 +29,11 @@ footer {
     margin-top: 2.9em;
   }
 
+  .container-fluid {
+    padding-left: 7.4px;
+    padding-right: 7.4px;
+  }
+
   /* .footer {
     width: 60%;
   } */
