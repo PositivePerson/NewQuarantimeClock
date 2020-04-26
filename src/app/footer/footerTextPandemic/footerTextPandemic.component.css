@@ -48,9 +48,13 @@ hr {
   margin-left: 31%;
 }
 
+#covidData .row:first-of-type {
+  font-weight: 400;
+}
+
 .row #covidData {
   /* font-weight: bold; */
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 1.1em !important;
   /* line-height: 3em !important; */
 }
@@ -83,7 +87,7 @@ hr {
     position: absolute;
 
     width: 100%;
-    z-index: 1000;
+    z-index: 999;
 
     /* left: 50%;
     margin-left: -50%; */
@@ -107,6 +111,21 @@ hr {
 
   }
 
+  #covidData .row{
+    text-indent: 0;
+
+    font-size: 0.75em !important;
+  }
+
+  /* #covidData .row:first-of-type {
+    font-weight: 400;
+  } */
+
+  #hrUnderCovid {
+    width: 70%;
+    margin-left: 3%;
+  }
+
   #table {
     font-size: 0.7em;
 
@@ -124,8 +143,8 @@ hr {
     height: 4em;
   }
 
-  #table .row:last-child div{
-    border-bottom: none;
+  #table > #othersData:last-child .row .div{
+    border-bottom: none !important;
   }
 
 }
