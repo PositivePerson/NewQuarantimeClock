@@ -3,18 +3,32 @@
 
 /* =========================== U N I V E R S A L ======================= */
 
+div {
+  padding-right: 0;
+}
+
+.links {
+  text-indent: 5%;
+  font-size: 0.9em;
+}
+
 #containerFooterTextDisease {
   text-align: justify;
-  text-indent: 10%;
-  font-size: 1.2em;
+  /* text-indent: 10%; */
+  font-size: 1.05em;
   line-height: 1.7em;
   font-weight: 300;
   letter-spacing: 0.045em;
   /* font-style: italic; */
   font-family: 'Merriweather', serif;
 
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding-top: 1.6em;
+  padding-bottom: 0.5em;
+}
+
+.linksRow div {
+  height: 1.8em;
+  overflow: hidden;
 }
 
 
