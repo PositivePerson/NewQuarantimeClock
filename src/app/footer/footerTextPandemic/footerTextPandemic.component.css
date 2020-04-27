@@ -1,5 +1,16 @@
+/* ==================== C U S T O M   C O L U M N S =================== */
 
+/* @media (min-width: 576px) {
 
+  .col-sm-25 {
+    position: relative;
+    min-height: 1px;
+    float: left;
+
+    width: 19.666667%;
+  }
+
+} */
 
 /* =========================== U N I V E R S A L ======================= */
 
@@ -12,7 +23,7 @@
   /* text-align: justify; */
   text-align: left;
   text-indent: 10%;
-  font-size: 1.2em;
+  font-size: 1.13em;
   line-height: 1.7em;
   font-weight: 300;
   letter-spacing: 0.045em;
@@ -55,13 +66,14 @@ hr {
 .row #covidData {
   /* font-weight: bold; */
   /* font-weight: 400; */
-  font-size: 1.1em !important;
+  font-size: 1.06em !important;
+  text-indent: 0;
   /* line-height: 3em !important; */
 }
 
 #otherPandemicsNames {
   font-size: 0.97em !important;
-  /* line-height: 1.8em !important; */
+  line-height: 2.4em !important;
 
 }
 
@@ -159,6 +171,30 @@ hr {
     font-size: 9em;
   }
 
+  #containerFooterTextPandemic {
+    font-size: 1.08em;
+
+    line-height: 1.7em;
+  }
+
+  #table .row div:not(:first-child):not(:last-child){
+    background: #2f2f2f;
+
+    border: 4px solid #222 !important;
+
+    border-radius: 7.5px;
+  }
+
+  #table .row {
+    /* padding-bottom: 1em; */
+
+    text-indent: 0;
+  }
+
+  #containerFooterTextPandemic #covidData {
+    line-height: 2.3em;
+  }
+
 }
 
 
@@ -167,6 +203,24 @@ hr {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+  #containerFooterTextPandemic {
+    font-size: 1.08em
+  }
+
+  #table .row div:not(:first-child):not(:last-child){
+    background: #2f2f2f;
+
+    border: 4px solid #222 !important;
+
+    border-radius: 7.5px;
+  }
+
+  #table .row {
+    /* padding-bottom: 1em; */
+
+    text-indent: 0;
+  }
+
 }
 
 
@@ -174,6 +228,20 @@ hr {
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  #table .row div:not(:first-child):not(:last-child){
+    background: #2f2f2f;
+
+    border: 4px solid #222 !important;
+
+    border-radius: 7.5px;
+  }
+
+  #table .row {
+    /* padding-bottom: 1em; */
+
+    text-indent: 0;
+  }
 
 }
 
@@ -184,7 +252,21 @@ hr {
 @media (min-width: 1200px) {
 
   #containerFooterTextPandemic {
-    padding-bottom: 5em;
+    padding-bottom: 4em;
+  }
+
+  #table .row div:not(:first-child):not(:last-child){
+    background: #2f2f2f;
+
+    border: 5px solid #222 !important;
+
+    border-radius: 7.5px;
+  }
+
+  #table .row {
+    /* padding-bottom: 1em; */
+
+    text-indent: 0;
   }
 
 }
