@@ -40,7 +40,8 @@ h4 {
     -o-transition: height 0.5s;
     overflow: hidden;
 
-    background: #171717;
+    /* background: #171717; */
+    /* background: #171717; */
 
     z-index: 1000;
 }
@@ -57,6 +58,8 @@ h4 {
     height: 4.5em;
 
     z-index: 1001;
+
+    border-bottom: 1px solid white;
 }
 
 .referenceLink p{
@@ -88,6 +91,14 @@ h4 {
 
 .country:hover + .referenceLink{
     height: 4.5em;
+
+    border-bottom: 1px solid white;
+
+    background: #222;
+}
+
+.referenceLink {
+  background: #222;
 }
 
 #references {
@@ -124,6 +135,14 @@ h4 {
 .country:hover + .referenceLink{
     height: 4.5em;
     z-index: 1001;
+
+    border-bottom: 1px solid white;
+
+    background: #222;
+}
+
+.referenceLink {
+  background: #222;
 }
 
 #references {
@@ -164,6 +183,8 @@ h4 {
 
 .country:hover + .referenceLink{
     height: 5em;
+
+    border-bottom: 1px solid white;
 }
 
 #references {
@@ -195,6 +216,8 @@ h4 {
 
 .country:hover + .referenceLink{
     height: 4.5em;
+
+    border-bottom: 1px solid white;
 }
 
 #references {
@@ -230,6 +253,9 @@ h4 {
 
 .country:hover + .referenceLink{
     height: 4.5em;
+
+    border-bottom: 1px solid white;
+
 }
 
 #references {

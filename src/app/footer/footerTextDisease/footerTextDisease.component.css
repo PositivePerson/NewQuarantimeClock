@@ -37,6 +37,10 @@ div {
   font-size: 0.97em;
 }
 
+#redirectBlock a {
+  text-decoration: underline;
+}
+
 
 
 /* ===========================E X T R A    S M A L L============================ */

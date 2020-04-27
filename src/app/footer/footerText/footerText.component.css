@@ -77,6 +77,11 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+
+  #footerText {
+    font-size: 1.2em;
+  }
+
 }
 
 
@@ -85,9 +90,9 @@
 
 @media (min-width: 1200px) {
 
-  /* #footerText i {
-    font-size: 9em;
-  } */
+  #footerText {
+    font-size: 1.2em;
+  }
 
   #virusIcon {
     align-items: center;
