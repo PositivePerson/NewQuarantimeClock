@@ -53,6 +53,30 @@ div {
     font-size: 7em;
   }
 
+  .links {
+    text-indent: 0;
+  }
+
+  .links div div {
+    margin-bottom: 0.12em;
+  }
+
+  .linksRow {
+    padding-left: 1.5em;
+  }
+
+  #footerText i {
+    font-size: 9em;
+  }
+
+  #containerFooterTextDisease {
+    font-size: 0.9em;
+  }
+
+  #redirectBlock {
+    padding-left: 2.5em;
+  }
+
 }
 
 
@@ -61,8 +85,24 @@ div {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+  .links {
+    text-indent: 0;
+  }
+
+  .links div div {
+    margin-bottom: 0.12em;
+  }
+
   #footerText i {
     font-size: 9em;
+  }
+
+  #containerFooterTextDisease {
+    font-size: 0.9em;
+  }
+
+  #redirectBlock {
+    margin-left: 8.5%;
   }
 
 }
@@ -73,6 +113,9 @@ div {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+  #redirectBlock {
+    margin-right: 15%;
+  }
 }
 
 
@@ -89,8 +132,10 @@ div {
 
 @media (min-width: 1200px) {
 
-  #containerFooterTextPandemic {
-    padding-bottom: 5em;
+  #containerFooterTextDisease {
+    /* padding-bottom: 5em; */
+
+    line-height: 1.5em;
   }
 
 }
